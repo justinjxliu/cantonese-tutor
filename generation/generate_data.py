@@ -224,6 +224,7 @@ generate_redirections(encouragement_categories, encouragement_fillers, encourage
 
 # Save examples
 examples_path = Path("../data/processed/sft_examples.jsonl")
+examples_path.parent.mkdir(parents=True, exist_ok=True)
 with open(examples_path, "w", encoding="utf-8") as examples_file:
     for example in sft_examples:
         json_string = json.dumps(example, ensure_ascii=False)
