@@ -1,3 +1,4 @@
-data/
+data/processed
 models/
 outputs/
+.venv/
