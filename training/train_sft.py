@@ -10,7 +10,7 @@ bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_use_double_quant=True,
     bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.bfloat16
+    bnb_4bit_compute_dtype=torch.float16
 )
 base_model = AutoModelForCausalLM.from_pretrained(
     base_model_name,
@@ -24,12 +24,13 @@ ds = load_dataset(
     split="train"
 )
 
-ds = ds.train_test_split(test_size=0.2, shuffle=True, seed=42)
+ds = ds.train_test_split(test_size=0.1, shuffle=True, seed=42)
 def format_example(batch):
     input_ids = []
     labels = []
     for prompt, completion in zip(batch["prompt"], batch["completion"]):
         messages = [
+            {"role": "system", "content": "You are a Cantonese tutor for a beginner. Use Jyutping (never pinyin) and focus on natural spoken Cantonese. If asked something unrelated, guide the conversation back to learning Cantonese."},
             {"role": "user", "content": prompt},
             {"role": "assistant", "content": completion}
         ]
@@ -49,15 +50,18 @@ def format_example(batch):
 ds_formatted = ds.map(format_example, batched=True, remove_columns=["prompt", "completion"])
 
 args = SFTConfig(
-    warmup_ratio=0.1,
+    warmup_steps=0.1,
     learning_rate=2e-5,
     max_length=512,
+    optim="adamw_8bit",
     per_device_train_batch_size=4,
     per_device_eval_batch_size=4,
     gradient_accumulation_steps=2,
     num_train_epochs=2,
-    logging_steps=10,
-    save_steps=100,
+    logging_steps=20,
+    eval_strategy="steps",
+    eval_steps=20,
+    save_steps=200,
     save_total_limit=2,
     output_dir="../outputs/qwen_cantonese_sft"
 )
