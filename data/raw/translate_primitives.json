@@ -1,0 +1,98 @@
+{
+    "translation_requests": {
+        "fillers": [
+            "I am tired",
+            "I am hungry",
+            "I am thirsty",
+            "I am happy",
+            "what is this",
+            "This is big",
+            "Let's keep going",
+            "You got this"
+        ],
+        "templates": {
+            "translation_only": [
+                "Could you translate '{phrase}' into Cantonese?",
+                "How would you say '{phrase}' in Cantonese?",
+                "What's the Cantonese for '{phrase}'?",
+                "Give me the Cantonese for '{phrase}'."
+            ],
+            "add_vocabulary": [
+                "What is '{phrase}' in Cantonese? Could you also break down the vocabulary for me?",
+                "How do you say '{phrase}' in Cantonese? Give me a breakdown of each word as well.",
+                "Give me the Cantonese for '{phrase}' along with a breakdown of the vocabulary.",
+                "Could I get the Cantonese for '{phrase}'? Also give me the meaning of each word."
+            ],
+            "add_pronunciation": [
+                "Translate '{phrase}' into Cantonese, and provide pronunciations for each word.",
+                "What is the Cantonese for '{phrase}'? How would you pronounce each word?",
+                "How would you say '{phrase}' in Cantonese? Please include a full pronunciation guide.",
+                "Give me '{phrase}' in Cantonese and explain how to pronounce each word."
+            ],
+            "add_grammar": [
+                "Can you give me the Cantonese for '{phrase}'? Please add any grammar notes as well.",
+                "What's the Cantonese for '{phrase}'? Note any important grammar points please.",
+                "Translate '{phrase}' into Cantonese and explain any relevant grammar rules.",
+                "How would you say '{phrase}' in Cantonese? Include grammar tips if there are any."
+            ],
+            "add_practice": [
+                "Please translate '{phrase}' into Cantonese and provide some sentences to practice.",
+                "How to say '{phrase}' in Cantonese? Also include a few practice sentences as well.",
+                "Give me the Cantonese for '{phrase}' and include example sentences for practice.",
+                "Translate '{phrase}' into Cantonese and add some sentences so I can practice using it."
+            ],
+            "add_vocab_and_pronunciation": [
+                "Translate '{phrase}' into Cantonese and provide vocabulary and pronunciations for each word.",
+                "What is the Cantonese for '{phrase}'? Include vocabulary and pronunciation breakdowns.",
+                "Can you give me '{phrase}' in Cantonese with each word's meaning and pronunciation?",
+                "How would you say '{phrase}' in Cantonese? Break down the vocabulary and provide pronunciations."
+            ],
+            "add_vocab_and_grammar": [
+                "Translate '{phrase}' into Cantonese and include vocabulary and grammar notes.",
+                "How would you say '{phrase}' in Cantonese? Include vocabulary and grammar.",
+                "Give me the Cantonese for '{phrase}' with a vocabulary list and grammar explanation.",
+                "Can you translate '{phrase}' into Cantonese and explain both the vocabulary and grammar?"
+            ],
+            "add_all": [
+                "Can you translate '{phrase}' into Cantonese? Give me a full breakdown with vocabulary, pronunciation, grammar and practice.",
+                "How would you say '{phrase}' in Cantonese? Explain the meaning and pronunciation of each word. Also include a grammar note and practice sentences.",
+                "Translate '{phrase}' into Cantonese and provide vocabulary, pronunciation, grammar points, and practice sentences.",
+                "Give me the Cantonese for '{phrase}' with a full breakdown: vocabulary, pronunciation, grammar explanations, and example sentences for practice."
+            ]
+        },
+        "responses": {
+            "translation_only": {
+                "intent": "translate",
+                "options": ["characters", "jyutping"]
+            },
+            "add_vocabulary": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "vocabulary"]
+            },
+            "add_pronunciation": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "pronunciation"]
+            },
+            "add_grammar": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "grammar"]
+            },
+            "add_practice": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "practice"]
+            },
+            "add_vocab_and_pronunciation": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "vocabulary", "pronunciation"]
+            },
+            "add_vocab_and_grammar": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "vocabulary", "grammar"]
+            },
+            "add_all": {
+                "intent": "translate",
+                "options": ["characters", "jyutping", "vocabulary", "pronunciation", "grammar", "practice"]
+            }
+        }
+    }
+}

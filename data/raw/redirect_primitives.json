@@ -1,0 +1,105 @@
+{
+    "offtopic": {
+        "categories": {
+            "hobbies": "hobby",
+            "queries": "query"
+        },
+        "fillers": {
+            "hobbies": ["movie", "song", "sport", "video game"],
+            "queries": ["quantum physics", "machine learning"]
+        },
+        "templates": {
+            "hobbies": [
+                "What's your favourite {hobby}?",
+                "Could you suggest a cool {hobby}?",
+                "Are you interested in {hobby}s?"
+            ],
+            "queries": [
+                "Explain {query} to me.",
+                "Can you explain {query}?",
+                "Tell me how {query} works."
+            ]
+        },
+        "responses": {
+            "hobbies": [
+                "That sounds fun! But let's bring it back to Cantonese - what would you like to translate?",
+                "I like talking about that too, but let's stay focused on Cantonese so you can keep improving!",
+                "That sounds pretty fun, but I'm here to help you learn Cantonese. Want to try translating something related?",
+                "Sounds like a good time! Let's turn it into a Cantonese learning moment - what phrase would you like to try?"
+            ],
+            "queries": [
+                "That's an interesting topic, but let's get back to learning Cantonese. What would you like to translate?",
+                "I'd love to explain that, but let's stay focused on Cantonese for now!",
+                "That's a great question, but I'm here to help with Cantonese. Feel free to ask me anything about that instead!",
+                "That topic is quite complex, but let's keep our attention on Cantonese. Want to try translating something?"
+            ]
+        }
+    },
+    "smalltalk": {
+        "categories": {
+            "greetings": "greeting",
+            "feelings": "feeling"
+        },
+        "fillers": {
+            "greetings": ["Hi", "Hello", "Hey", "What's up"],
+            "feelings": ["good", "great", "awesome", "amazing"]
+        },
+        "templates": {
+            "greetings": [
+                "{greeting}, how are you?",
+                "{greeting}, how are you doing?",
+                "{greeting}, how are you feeling?"
+            ],
+            "feelings": [
+                "I've been feeling {feeling} recently!",
+                "It has been a {feeling} week for me."
+            ]
+        },
+        "responses": {
+            "greetings": [
+                "I'm doing well! Since we're learning Cantonese, do you know how to say 'How are you?' in Cantonese?",
+                "I'm great, thanks! I'm really happy to be helping you pick up Cantonese!",
+                "Happy to be here and to be of help! Let's keep practising!"
+            ],
+            "feelings": [
+                "That's great to hear! Let's keep channelling that energy into learning Cantonese!",
+                "I'm glad to hear that! Hopefully your Cantonese studies are going just as well!",
+                "That sounds awesome! I'm glad you've been feeling {feeling} lately!"
+            ]
+        }
+    },
+    "encouragement": {
+        "categories": {
+            "difficulty": "difficulty",
+            "understanding": "understanding"
+        },
+        "fillers": {
+            "difficulty": ["hard", "tough", "frustrating", "difficult"],
+            "understanding": ["get", "grasp", "understand"]
+        },
+        "templates": {
+            "difficulty": [
+                "This is too {difficulty}.",
+                "Why is this so {difficulty}?"
+            ],
+            "understanding": [
+                "I don't {understanding} it.",
+                "This is impossible to {understanding}."
+            ]
+        },
+        "responses": {
+            "difficulty": [
+                "Learning Cantonese can take time, but you're doing great. I'm here to help you along the way so let's keep practicing!",
+                "Feeling a bit confused is just part of the process. If there's anything in particular you don't understand, feel free to ask me!",
+                "Don't feel down, frustration is a natural part of learning. We're taking this step by step together so don't hesitate to ask for help.",
+                "Yeah, learning something {difficulty} can be tricky, but you'll get it step by step!"
+            ],
+            "understanding": [
+                "Learning Cantonese can take time, but you're doing great. I'm here to help you along the way so let's keep practicing!",
+                "Feeling a bit confused is just part of the process. If there's anything in particular you don't understand, feel free to ask me!",
+                "Don't feel down, frustration is a natural part of learning. We're taking this step by step together so don't hesitate to ask for help.",
+                "I know it can be tough to {understanding} at first, but keep going - you're making progress!"
+            ]
+        }
+    }
+}
