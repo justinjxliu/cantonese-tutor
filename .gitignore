@@ -1,4 +1,10 @@
-data/processed
+# Project artifacts
+data/processed/
 models/
 outputs/
+
+# Virtual environment
 .venv/
+
+# Python cache
+__pycache__/
