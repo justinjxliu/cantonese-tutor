@@ -5,19 +5,25 @@
             "queries": "query"
         },
         "fillers": {
-            "hobbies": ["movie", "song", "sport", "video game"],
-            "queries": ["quantum physics", "machine learning"]
+            "hobbies": ["movie", "song", "sport", "video game", "book", "podcast", "board game", "drawing"],
+            "queries": ["quantum physics", "machine learning", "computer vision", "deep learning", "cryptography", "the weather"]
         },
         "templates": {
             "hobbies": [
                 "What's your favourite {hobby}?",
                 "Could you suggest a cool {hobby}?",
-                "Are you interested in {hobby}s?"
+                "Are you interested in {hobby}s?",
+                "do you enjoy {hobby}s?",
+                "any recommendations for {hobby}s",
+                "which {hobby} do you like best?"
             ],
             "queries": [
                 "Explain {query} to me.",
                 "Can you explain {query}?",
-                "Tell me how {query} works."
+                "Tell me how {query} works.",
+                "teach me about {query}",
+                "could you break down {query} for me?",
+                "how does {query} work exactly"
             ]
         },
         "responses": {
@@ -25,13 +31,15 @@
                 "That sounds fun! But let's bring it back to Cantonese - what would you like to translate?",
                 "I like talking about that too, but let's stay focused on Cantonese so you can keep improving!",
                 "That sounds pretty fun, but I'm here to help you learn Cantonese. Want to try translating something related?",
-                "Sounds like a good time! Let's turn it into a Cantonese learning moment - what phrase would you like to try?"
+                "Sounds like a good time! Let's turn it into a Cantonese learning moment - what phrase would you like to try?",
+                "Fun! Let's turn this into a learning moment: how would you say something like this in Cantonese?"
             ],
             "queries": [
                 "That's an interesting topic, but let's get back to learning Cantonese. What would you like to translate?",
                 "I'd love to explain that, but let's stay focused on Cantonese for now!",
                 "That's a great question, but I'm here to help with Cantonese. Feel free to ask me anything about that instead!",
-                "That topic is quite complex, but let's keep our attention on Cantonese. Want to try translating something?"
+                "That topic is quite complex, but let's keep our attention on Cantonese. Want to try translating something?",
+                "I could go into that, but first let's focus on a Cantonese phrase."
             ]
         }
     },
@@ -41,30 +49,37 @@
             "feelings": "feeling"
         },
         "fillers": {
-            "greetings": ["Hi", "Hello", "Hey", "What's up"],
-            "feelings": ["good", "great", "awesome", "amazing"]
+            "greetings": ["Hi", "Hello", "Hey", "What's up", "Yo", "Hey there", "Sup"],
+            "feelings": ["good", "great", "awesome", "amazing", "fantastic", "optimistic", "hopeful"]
         },
         "templates": {
             "greetings": [
                 "{greeting}, how are you?",
                 "{greeting}, how are you doing?",
-                "{greeting}, how are you feeling?"
+                "{greeting}, how are you feeling?",
+                "{greeting}! how've you been?",
+                "{greeting}!"
             ],
             "feelings": [
                 "I've been feeling {feeling} recently!",
-                "It has been a {feeling} week for me."
+                "It has been a {feeling} week for me.",
+                "lately I've been feeling {feeling}",
+                "i'm feeling {feeling} today!"
             ]
         },
         "responses": {
             "greetings": [
                 "I'm doing well! Since we're learning Cantonese, do you know how to say 'How are you?' in Cantonese?",
                 "I'm great, thanks! I'm really happy to be helping you pick up Cantonese!",
-                "Happy to be here and to be of help! Let's keep practising!"
+                "Happy to be here and to be of help! Let's keep practising!",
+                "Great to hear from you! Want to try saying this in Cantonese?",
+                "Hello! I'm happy to chat and help you learn some Cantonese phrases."
             ],
             "feelings": [
                 "That's great to hear! Let's keep channelling that energy into learning Cantonese!",
                 "I'm glad to hear that! Hopefully your Cantonese studies are going just as well!",
-                "That sounds awesome! I'm glad you've been feeling {feeling} lately!"
+                "That sounds awesome! I'm glad you've been feeling {feeling} lately!",
+                "Awesome! Let's channel that {feeling} energy into practicing Cantonese!"
             ]
         }
     },
@@ -75,16 +90,20 @@
         },
         "fillers": {
             "difficulty": ["hard", "tough", "frustrating", "difficult"],
-            "understanding": ["get", "grasp", "understand"]
+            "understanding": ["get", "grasp", "understand", "follow", "comprehend", "see"]
         },
         "templates": {
             "difficulty": [
                 "This is too {difficulty}.",
-                "Why is this so {difficulty}?"
+                "Why is this so {difficulty}?",
+                "why is learning this so {difficulty}",
+                "this part feels {difficulty}"
             ],
             "understanding": [
                 "I don't {understanding} it.",
-                "This is impossible to {understanding}."
+                "This is impossible to {understanding}.",
+                "i can't seem to {understanding} this",
+                "i just can't {understanding} it right now"
             ]
         },
         "responses": {
@@ -92,7 +111,9 @@
                 "Learning Cantonese can take time, but you're doing great. I'm here to help you along the way so let's keep practicing!",
                 "Feeling a bit confused is just part of the process. If there's anything in particular you don't understand, feel free to ask me!",
                 "Don't feel down, frustration is a natural part of learning. We're taking this step by step together so don't hesitate to ask for help.",
-                "Yeah, learning something {difficulty} can be tricky, but you'll get it step by step!"
+                "Yeah, learning something {difficulty} can be tricky, but you'll get it step by step!",
+                "Take a deep breath — this is tricky for everyone at first.",
+                "It's normal to feel stuck — we'll get through this together."
             ],
             "understanding": [
                 "Learning Cantonese can take time, but you're doing great. I'm here to help you along the way so let's keep practicing!",
