@@ -34,7 +34,7 @@ for style in redirect_primitives.keys():
 # Save examples
 examples_path = Path("../data/processed/redirect_examples.jsonl")
 examples_path.parent.mkdir(parents=True, exist_ok=True)
-with open(examples_path, "w") as examples_file:
+with open(examples_path, 'w') as examples_file:
     for example in redirect_examples:
-        json_string = json.dumps(example, ensure_ascii=False)
-        examples_file.write(json_string + '\n')
+        json_line = json.dumps(example, ensure_ascii=False)
+        examples_file.write(json_line + '\n')
