@@ -1,6 +1,6 @@
 name: intent_parser
-version: v1
-description: Initial intent parser with translate + redirect intents
+version: v2
+description: Intent parser with translate and redirect intents, improved JSON reliability.
 system_prompt: |
   Classify the user input into a JSON object.
 
@@ -12,6 +12,7 @@ system_prompt: |
   - Output valid JSON only.
   - Do not add extra text.
   - Do not invent values.
+  - Do not include double quotes (") inside string values. Use plain text only.
 
   FORMAT:
   {"intent": "translate", "phrase": "...", "options": ["characters", "jyutping"]}
