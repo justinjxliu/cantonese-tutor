@@ -4,11 +4,11 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig
 import torch
 import yaml
+import json
 from pathlib import Path
 
 base_model_name = "meta-llama/Llama-3.2-3B-Instruct"
-base_model = AutoModelForCausalLM.from_pretrained(base_model_name)
-base_model.to("mps")
+base_model = AutoModelForCausalLM.from_pretrained(base_model_name, device_map="mps")
 tokenizer = AutoTokenizer.from_pretrained(base_model_name)
 tokenizer.chat_template = """
 {{- bos_token }}
@@ -138,7 +138,16 @@ trainer = SFTTrainer(
 )
 trainer.train()
 
+# Save model
 model_path = Path("../models/llama_intent_parser")
 model_path.mkdir(parents=True, exist_ok=True)
 trainer.save_model(model_path)
 tokenizer.save_pretrained(model_path)
+
+# Save test data set
+test_path = Path("../data/processed/test_examples.jsonl")
+test_path.parent.mkdir(parents=True, exist_ok=True)
+with open(test_path, 'w', encoding="utf-8") as test_file:
+    for example in test_dataset:
+        json_line = json.dumps({"messages": example["messages"]}, ensure_ascii=False)
+        test_file.write(json_line + '\n')
