@@ -21,13 +21,17 @@ for task in translate_primitives.keys():
         for template_type, template_list in templates.items():
             response = responses[template_type]
             for template in template_list:
-                prompt = template.format(phrase=filler)
+                prompt = template["template"].format(phrase=filler)
                 completion = json.dumps({
                     "intent": response["intent"],
                     "phrase": filler,
                     "options": response["options"]
                 })
-                translate_examples.append({"prompt": prompt, "completion": completion})
+                translate_examples.append({
+                    "prompt": prompt,
+                    "completion": completion,
+                    "cleanliness": template["cleanliness"]
+                })
 
 # Save examples
 examples_path = Path("../data/processed/translate_examples.jsonl")

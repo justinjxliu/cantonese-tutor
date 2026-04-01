@@ -23,13 +23,13 @@ for style in redirect_primitives.keys():
             format_dict = {placeholder: filler}
             for template in templates[category]:
                 for response in responses[category]:
-                    prompt = template.format(**format_dict)
+                    prompt = template["template"].format(**format_dict)
                     completion = json.dumps({
                         "intent": "redirect",
                         "style": style,
                         "message": response.format(**format_dict)
                     })
-                    redirect_examples.append({"prompt": prompt, "completion": completion})
+                    redirect_examples.append({"prompt": prompt, "completion": completion, "cleanliness": template["cleanliness"]})
 
 # Save examples
 examples_path = Path("../data/processed/redirect_examples.jsonl")
