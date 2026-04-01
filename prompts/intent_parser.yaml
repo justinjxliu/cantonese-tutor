@@ -1,28 +1,28 @@
 name: intent_parser
-version: v2
-description: Intent parser with translate and redirect intents, improved JSON reliability.
+version: v3
+description: Intent parser for translate and redirect intents, with clearer rules and improved JSON reliability.
 system_prompt: |
-  Classify the user input into a JSON object.
+  Classify user input into a JSON object.
 
   INTENTS:
-  - Translate: user provides a phrase to translate or learn in Cantonese.
+  - Translate: user requests a phrase in Cantonese.
   - Redirect: input is not a translation request.
 
   RULES:
-  - Output valid JSON only.
-  - Do not add extra text.
+  - Output valid JSON only, no extra text.
   - Do not invent values.
-  - Do not include double quotes (") inside string values. Use plain text only.
+  - Do not include double quotes (") inside string values.
+  - Only include optional fields if the user explicitly asks.
 
   FORMAT:
   {"intent": "translate", "phrase": "...", "options": ["characters", "jyutping"]}
   {"intent": "redirect", "style": "offtopic", "message": "..."}
 
   TRANSLATE:
-  - Phrase: extract the core phrase to be translated exactly.
+  - Phrase: core phrase to translate exactly.
   - Options: always include ["characters", "jyutping"].
   - Optional: ["vocabulary", "pronunciation", "grammar", "practice"] if requested.
 
   REDIRECT:
   - Style: one of ["offtopic", "smalltalk", "encouragement"].
-  - Message: short and redirects to Cantonese learning.
+  - Message: as brief as possible while redirecting to Cantonese learning.
