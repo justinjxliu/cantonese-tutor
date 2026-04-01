@@ -70,7 +70,8 @@ def format_example(batch):
     Returns: {"messages": [[{role, content}, ...], ...]}
     """
     messages = []
-    for prompt, completion in zip(batch["prompt"], batch["completion"]):
+    category = []
+    for prompt, completion, cleanliness in zip(batch["prompt"], batch["completion"], batch["cleanliness"]):
         messages.append([
             {
                 "role": "system",
@@ -85,13 +86,16 @@ def format_example(batch):
                 "content": completion
             }
         ])
-    return {"messages": messages}
-formatted_ds = combined_ds.map(format_example, batched=True, remove_columns=["prompt", "completion"])
+        intent = json.loads(completion)["intent"]
+        category.append(f"{intent}_{cleanliness}")
+    return {"messages": messages, "category": category}
+formatted_ds = combined_ds.map(format_example, batched=True, remove_columns=["prompt", "completion", "cleanliness"])
+formatted_ds = formatted_ds.class_encode_column("category")
 
 # Split data
-train_eval_split = formatted_ds.train_test_split(test_size=0.3, shuffle=True, seed=42)
+train_eval_split = formatted_ds.train_test_split(test_size=0.3, shuffle=True, stratify_by_column="category", seed=42)
 train_dataset = train_eval_split["train"]
-eval_test_split = train_eval_split["test"].train_test_split(test_size=0.5, shuffle=True, seed=42)
+eval_test_split = train_eval_split["test"].train_test_split(test_size=0.5, shuffle=True, stratify_by_column="category", seed=42)
 eval_dataset = eval_test_split["train"]
 test_dataset = eval_test_split["test"]
 
@@ -131,8 +135,8 @@ lora_config = LoraConfig(
 trainer = SFTTrainer(
     model=base_model,
     processing_class=tokenizer,
-    train_dataset=train_dataset,
-    eval_dataset=eval_dataset,
+    train_dataset=train_dataset.select_columns(["messages"]),
+    eval_dataset=eval_dataset.select_columns(["messages"]),
     args=args,
     peft_config=lora_config
 )
