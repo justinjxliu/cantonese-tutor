@@ -1,8 +1,7 @@
-from datasets import concatenate_datasets, load_dataset, Dataset
+from datasets import concatenate_datasets, load_dataset
 from trl import SFTConfig, SFTTrainer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig
-import torch
 import yaml
 import json
 from pathlib import Path
@@ -107,9 +106,9 @@ args = SFTConfig(
     per_device_eval_batch_size=4,
     gradient_accumulation_steps=8,
     num_train_epochs=2,
-    logging_steps=5,
+    logging_steps=20,
     eval_strategy="steps",
-    save_steps=10,
+    save_steps=50,
     save_total_limit=2,
     output_dir="../outputs/llama_intent_parser",
     assistant_only_loss=True
