@@ -53,7 +53,7 @@ with open(prompt_file) as f:
 # def generate_and_print(model, tokens, tokenizer, description):
 #     prompt_length = tokens["input_ids"].shape[1]
 #     output = model.generate(**tokens, generation_config=generation_config)
-#     text = tokenizer.decode(output[0][prompt_length], skip_special_tokens=True)
+#     text = tokenizer.decode(output[0][prompt_length:], skip_special_tokens=True)
 #     print(f"\n--- {description} --- \n{text}\n")
 
 # # Baseline performance
@@ -126,7 +126,7 @@ for i, example in enumerate(test_ds):
         # Check intent classification correct
         base_intent = base_json.get("intent")
         if base_intent != reference_intent:
-            print(f"[Example {i}] Base intent is incorrect: {base_intent}")
+            print(f"[Example {i + 1}] Base intent is incorrect: {base_intent}")
             incorrect_intent_base += 1
 
             if reference_intent == "translate":
@@ -138,26 +138,35 @@ for i, example in enumerate(test_ds):
         else:
             if reference_intent == "translate":
                 if base_json.get("phrase") != reference_json["phrase"]:
-                    print(f"[Example {i}] Base phrase is incorrect: {base_json.get("phrase")}")
-
+                    print(f"[Example {i + 1}] Base phrase is incorrect: {base_json.get("phrase")}")
+                    incorrect_phrase_base += 1
                 if (
                     "options" not in base_json 
                     or sorted(base_json.get("options")) != sorted(reference_json["options"])
                 ):
-                    print(f"[Example {i}] Base options are incorrect: {base_json.get("options")}")
+                    print(f"[Example {i + 1}] Base options are incorrect: {base_json.get("options")}")
+                    incorrect_options_base += 1
             else:
                 if base_json.get("style") != reference_json["style"]:
-                    print(f"[Example {i}] Base style is incorrect: {base_json.get("style")}")
+                    print(f"[Example {i + 1}] Base style is incorrect: {base_json.get("style")}")
+                    incorrect_style_base += 1
     except json.JSONDecodeError:
-        print(f"[Example {i}] Base output is invalid: {base_output}")
+        print(f"[Example {i + 1}] Base output is invalid: {base_output}")
         invalid_json_base += 1
+
+        incorrect_intent_base += 1
+        if reference_intent == "translate":
+            incorrect_phrase_base += 1
+            incorrect_options_base += 1
+        else:
+            incorrect_style_base += 1
     
     try:
         peft_json = json.loads(peft_output)
 
         peft_intent = peft_json.get("intent")
         if peft_intent != reference_intent:
-            print(f"[Example {i}] LoRA intent is incorrect: {peft_intent}")
+            print(f"[Example {i + 1}] LoRA intent is incorrect: {peft_intent}")
             incorrect_intent_peft += 1
 
             if reference_intent == "translate":
@@ -168,32 +177,41 @@ for i, example in enumerate(test_ds):
         else:
             if reference_intent == "translate":
                 if peft_json.get("phrase") != reference_json["phrase"]:
-                    print(f"[Example {i}] LoRA phrase is incorrect: {peft_json.get("phrase")}")
-
+                    print(f"[Example {i + 1}] LoRA phrase is incorrect: {peft_json.get("phrase")}")
+                    incorrect_phrase_peft += 1
                 if (
                     "options" not in peft_json 
                     or sorted(peft_json.get("options")) != sorted(reference_json["options"])
                 ):
-                    print(f"[Example {i}] LoRA options are incorrect: {peft_json.get("options")}")
+                    print(f"[Example {i + 1}] LoRA options are incorrect: {peft_json.get("options")}")
+                    incorrect_options_peft += 1
             else:
                 if peft_json.get("style") != reference_json["style"]:
-                    print(f"[Example {i}] LoRA style is incorrect: {peft_json.get("style")}")
+                    print(f"[Example {i + 1}] LoRA style is incorrect: {peft_json.get("style")}")
+                    incorrect_style_peft += 1
     except json.JSONDecodeError:
-        print(f"[Example {i}] LoRA output is invalid: {peft_output}")
+        print(f"[Example {i + 1}] LoRA output is invalid: {peft_output}")
         invalid_json_peft += 1
+
+        incorrect_intent_peft += 1
+        if reference_intent == "translate":
+            incorrect_phrase_peft += 1
+            incorrect_options_peft += 1
+        else:
+            incorrect_style_peft += 1
 
 print(f"Base model JSON validity: {100*(1 - invalid_json_base/total):.2f}%")
 print(f"LoRA model JSON validity: {100*(1 - invalid_json_peft/total):.2f}%")
 
-print(f"Base model intent accuracy: {100*(1 - incorrect_intent_base/total):2f}%")
-print(f"LoRA model intent accuracy: {100*(1 - incorrect_intent_peft/total):2f}%")
+print(f"Base model intent accuracy: {100*(1 - incorrect_intent_base/total):.2f}%")
+print(f"LoRA model intent accuracy: {100*(1 - incorrect_intent_peft/total):.2f}%")
 
 # Translate specific
-print(f"Base model phrase accuracy: {100*(1 - incorrect_phrase_base/num_translate_examples):2f}%")
-print(f"LoRA model phrase accuracy: {100*(1 - incorrect_phrase_peft/num_translate_examples):2f}%")
-print(f"Base model options accuracy: {100*(1 - incorrect_options_base/num_translate_examples):2f}%")
-print(f"LoRA model options accuracy: {100*(1 - incorrect_options_peft/num_translate_examples):2f}%")
+print(f"Base model phrase accuracy: {100*(1 - incorrect_phrase_base/num_translate_examples):.2f}%")
+print(f"LoRA model phrase accuracy: {100*(1 - incorrect_phrase_peft/num_translate_examples):.2f}%")
+print(f"Base model options accuracy: {100*(1 - incorrect_options_base/num_translate_examples):.2f}%")
+print(f"LoRA model options accuracy: {100*(1 - incorrect_options_peft/num_translate_examples):.2f}%")
 
 # Redirect specific
-print(f"Base model style accuracy: {100*(1 - incorrect_style_base/num_redirect_examples):2f}%")
-print(f"LoRA model style accuracy: {100*(1 - incorrect_style_peft/num_redirect_examples):2f}%")
+print(f"Base model style accuracy: {100*(1 - incorrect_style_base/num_redirect_examples):.2f}%")
+print(f"LoRA model style accuracy: {100*(1 - incorrect_style_peft/num_redirect_examples):.2f}%")
