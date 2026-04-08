@@ -4,6 +4,26 @@ from peft import PeftModel
 import json
 import yaml
 from pathlib import Path
+import sys
+from datetime import datetime
+
+log_path = f"eval_logs/run_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+Path("eval_logs").mkdir(exist_ok=True)
+log_file = open(log_path, 'w')
+
+class Tee:
+    def __init__(self, *files):
+        self.files = files
+    
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+    
+    def flush(self):
+        for f in self.files:
+            f.flush()
+
+sys.stdout = Tee(sys.stdout, log_file)
 
 # Model identifiers
 base_model_name = "meta-llama/Llama-3.2-3B-Instruct"
@@ -88,8 +108,6 @@ incorrect_options_base, incorrect_options_peft = 0, 0
 incorrect_style_base, incorrect_style_peft = 0, 0
 
 total, num_translate_examples, num_redirect_examples = len(test_ds), 0, 0
-
-# snippet_len = 100
 
 for i, example in enumerate(test_ds):
     system_message, user_message, assistant_message = example["messages"]
