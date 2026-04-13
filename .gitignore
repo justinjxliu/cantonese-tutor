@@ -1,7 +1,7 @@
 # Project artifacts
-data/processed/
-models/
-outputs/
+*/data/processed/
+*/models/
+*/outputs/
 
 # Virtual environment
 .venv/
