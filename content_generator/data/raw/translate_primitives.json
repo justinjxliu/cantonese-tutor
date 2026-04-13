@@ -1,0 +1,46 @@
+{
+    "translation_requests": {
+        "requests": {
+            "translation_only": {
+                "intent": "translate",
+                "options": ["characters"]
+            },
+            "add_vocabulary": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary"]
+            },
+            "add_pronunciation": {
+                "intent": "translate",
+                "options": ["characters", "pronunciation"]
+            },
+            "add_grammar": {
+                "intent": "translate",
+                "options": ["characters", "grammar"]
+            },
+            "add_practice": {
+                "intent": "translate",
+                "options": ["characters", "practice"]
+            },
+            "add_vocab_and_pronunciation": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary", "pronunciation"]
+            },
+            "add_vocab_and_grammar": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary", "grammar"]
+            },
+            "add_vocab_and_practice": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary", "practice"]
+            },
+            "add_vocab_pronunciation_and_grammar": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary", "pronunciation", "grammar"]
+            },
+            "add_all": {
+                "intent": "translate",
+                "options": ["characters", "vocabulary", "pronunciation", "grammar", "practice"]
+            }
+        }
+    }
+}

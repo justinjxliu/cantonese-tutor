@@ -4,9 +4,9 @@
     "jyutping": "ngo5",
     "definition": "I",
     "pronunciation": {
-      "sound": "'ng-aw'",
+      "sound": "ng-aw",
       "description": "Start with the 'ng' sound at the end of 'sing', then add 'aw' like in 'law'",
-      "tone": "5 (low rising — voice starts low and rises slightly)"
+      "tone": "low rising — voice starts low and rises slightly"
     }
   },
   "tou5_ngo6_hungry": {
@@ -20,9 +20,9 @@
     "jyutping": "tou5",
     "definition": "stomach",
     "pronunciation": {
-      "sound": "'toh'",
+      "sound": "toh",
       "description": "Say 't' + a relaxed 'oh' (closer to pure 'oh' than English 'toe')",
-      "tone": "5 (low rising — voice starts low and rises slightly)"
+      "tone": "low rising — voice starts low and rises slightly"
     }
   },
   "ngo6_hungry": {
@@ -30,9 +30,9 @@
     "jyutping": "ngo6",
     "definition": "hungry",
     "pronunciation": {
-      "sound": "'ng-aw'",
+      "sound": "ng-aw",
       "description": "Start with the 'ng' sound at the end of 'sing', then add 'aw' like in 'law'",
-      "tone": "6 (low and flat — keep it steady and low)"
+      "tone": "low and flat — keep it steady and low"
     }
   },
   "hau2_hot3_thirsty": {
@@ -46,9 +46,9 @@
     "jyutping": "hau2",
     "definition": "mouth",
     "pronunciation": {
-      "sound": "'how'",
+      "sound": "how",
       "description": "Start with an aspirated 'h' sound, then add 'ow' like in 'how' or 'cow', keep lips relaxed",
-      "tone": "2 (mid rising — voice starts at mid level and rises slightly)"
+      "tone": "mid rising — voice starts at mid level and rises slightly"
     }
   },
   "hot3_thirsty": {
@@ -56,9 +56,9 @@
     "jyutping": "hot3",
     "definition": "thirsty",
     "pronunciation": {
-      "sound": "'hot'",
+      "sound": "hot",
       "description": "Start with a clear 'h' sound, followed by 'o' like in 'hot', ending with a crisp 't'",
-      "tone": "3 (mid-level — voice stays steady around mid pitch)"
+      "tone": "mid-level — voice stays steady around mid pitch"
     }
   },
   "ngaan5_fan3_sleepy": {
@@ -72,19 +72,19 @@
     "jyutping": "ngaan5",
     "definition": "eye",
     "pronunciation": {
-      "sound": "'ng-aan'",
+      "sound": "ng-aan",
       "description": "Start with the nasal 'ng' like in 'sing', then follow with 'aan' as in 'barn', keeping the vowel steady and relaxed",
-      "tone": "5 (low rising — voice starts low and rises slightly)"
+      "tone": "low rising — voice starts low and rises slightly"
     }
   },
   "fan3_sleep": {
     "chinese": "瞓",
-    "jyutping": "'fan3'",
+    "jyutping": "fan3",
     "definition": "sleep",
     "pronunciation": {
       "sound": "fan",
       "description": "Start with a clear 'f' sound, then add 'an' like in 'fun', keeping lips relaxed and the vowel steady",
-      "tone": "3 (mid-level — voice stays steady around mid pitch)"
+      "tone": "mid-level — voice stays steady around mid pitch"
     }
   }
 }
