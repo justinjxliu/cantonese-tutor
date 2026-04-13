@@ -32,7 +32,7 @@
     "pronunciation": {
       "sound": "ng-aw",
       "description": "Start with the 'ng' sound at the end of 'sing', then add 'aw' like in 'law'",
-      "tone": "low and flat — keep it steady and low"
+      "tone": "low level — voice stays steady and low"
     }
   },
   "hau2_hot3_thirsty": {
@@ -48,7 +48,7 @@
     "pronunciation": {
       "sound": "how",
       "description": "Start with an aspirated 'h' sound, then add 'ow' like in 'how' or 'cow', keep lips relaxed",
-      "tone": "mid rising — voice starts at mid level and rises slightly"
+      "tone": "mid rising — voice starts mid and rises slightly"
     }
   },
   "hot3_thirsty": {
@@ -58,7 +58,7 @@
     "pronunciation": {
       "sound": "hot",
       "description": "Start with a clear 'h' sound, followed by 'o' like in 'hot', ending with a crisp 't'",
-      "tone": "mid-level — voice stays steady around mid pitch"
+      "tone": "mid level — voice stays steady around mid pitch"
     }
   },
   "ngaan5_fan3_sleepy": {
@@ -84,7 +84,195 @@
     "pronunciation": {
       "sound": "fan",
       "description": "Start with a clear 'f' sound, then add 'an' like in 'fun', keeping lips relaxed and the vowel steady",
-      "tone": "mid-level — voice stays steady around mid pitch"
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "hou2_good": {
+    "chinese": "好",
+    "jyutping": "hou2",
+    "definition": "good / very (intensifier)",
+    "pronunciation": {
+      "sound": "ho",
+      "description": "Start with a clear 'h' sound, then add 'oh' like in 'go', keeping the vowel smooth and slightly rising toward the end",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "hoi1_sam1_happy": {
+    "chinese": "開心",
+    "jyutping": "hoi1 sam1",
+    "definition": "happy",
+    "pronunciation": null
+  },
+  "hoi1_open": {
+    "chinese": "開",
+    "jyutping": "hoi1",
+    "definition": "open",
+    "pronunciation": {
+      "sound": "hoi",
+      "description": "Start with a light 'h' sound, then glide into 'oi' like in 'boy', keeping the transition smooth and quick",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "sam1_heart": {
+    "chinese": "心",
+    "jyutping": "sam1",
+    "definition": "heart",
+    "pronunciation": {
+      "sound": "sum",
+      "description": "Start with an 's' sound, then add 'um' like in 'sum', keeping the vowel short and neutral",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "gui6_tired": {
+    "chinese": "攰",
+    "jyutping": "gui6",
+    "definition": "tired",
+    "pronunciation": {
+      "sound": "gway",
+      "description": "Start with a soft 'g' sound, then glide into 'way' (similar to 'gway' with a relaxed ending). Keep it light and slightly falling in tone.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "mong4_busy": {
+    "chinese": "忙",
+    "jyutping": "mong4",
+    "definition": "busy",
+    "pronunciation": {
+      "sound": "mawng",
+      "description": "Start with a soft 'm' sound, then glide into 'awng' (like 'mawng'), keeping the vowel smooth and slightly nasal.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "beng6_sick": {
+    "chinese": "病",
+    "jyutping": "beng6",
+    "definition": "sick / illness",
+    "pronunciation": {
+      "sound": "beng",
+      "description": "Start with a soft 'b' sound, then glide into 'eng' (like 'beng'), keeping the vowel slightly nasal and relaxed.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "zo2_completed": {
+    "chinese": "咗",
+    "jyutping": "zo2",
+    "definition": "completed action marker",
+    "pronunciation": {
+      "sound": "dzo",
+      "description": "Start with a soft 'dz' sound (like 'ds' in 'kids'), then glide into a short 'o' vowel, keeping it quick and unstressed.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "m4_not": {
+    "chinese": "唔",
+    "jyutping": "m4",
+    "definition": "not",
+    "pronunciation": {
+      "sound": "m",
+      "description": "Start with a soft nasal 'm' sound, keep it short and unstressed, like a quick hum.",
+      "tone": "low falling — voice starts low and falls slightly"
+    }
+  },
+  "soeng2_want": {
+    "chinese": "想",
+    "jyutping": "soeng2",
+    "definition": "want",
+    "pronunciation": {
+      "sound": "s-ohng",
+      "description": "Start with a clear 's' sound, then move into 'ohng' (like 'song' without the 'g' ending, but keeping the nasal 'ng' sound). Keep it smooth and slightly rising.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "ceot1_gaai1_go_out": {
+    "chinese": "出街",
+    "jyutping": "ceot1 gaai1",
+    "definition": "go out",
+    "pronunciation": null
+  },
+  "ceot1_go_out": {
+    "chinese": "出",
+    "jyutping": "ceot1",
+    "definition": "go out",
+    "pronunciation": {
+      "sound": "chut",
+      "description": "Start with a clear 'ch' sound like in 'church', then a short 'ut' vowel like in 'put'. Keep it crisp and quick, with no elongation.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "gaai1_street": {
+    "chinese": "街",
+    "jyutping": "gaai1",
+    "definition": "street",
+    "pronunciation": {
+      "sound": "gai",
+      "description": "Start with a clear 'g' sound, then glide into 'ai' like in 'eye'. Keep it light and smooth without overemphasizing the ending.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "zung1_ji3_like": {
+    "chinese": "鍾意",
+    "jyutping": "zung1 ji3",
+    "definition": "like",
+    "pronunciation": null
+  },
+  "zung1_focus": {
+    "chinese": "鍾",
+    "jyutping": "zung1",
+    "definition": "focus / concentrate",
+    "pronunciation": {
+      "sound": "zung",
+      "description": "Start with a clear 'z' sound, then move into 'ung' as in 'lung', keeping the syllable short, tight, and controlled.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "ji3_thought": {
+    "chinese": "意",
+    "jyutping": "ji3",
+    "definition": "thought / intention",
+    "pronunciation": {
+      "sound": "yee",
+      "description": "Start with a light 'y' glide, then move into a long 'ee' vowel like in 'see', keeping it smooth and steady without a strong ending.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "gaa3_fe1_coffee": {
+    "chinese": "咖啡",
+    "jyutping": "gaa3 fe1",
+    "definition": "coffee",
+    "pronunciation": null
+  },
+  "gaa3_coffee_component": {
+    "pronunciation": {
+      "sound": "gaa",
+      "description": "Start with a soft 'g' sound, then open into 'aa' like in 'car', keeping the vowel long and relaxed.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "fe1_coffee_component": {
+    "pronunciation": {
+      "sound": "fay",
+      "description": "Start with a clear 'f' sound, then glide into 'ay' like in 'say', keeping the vowel light and slightly high.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "sik6_eat": {
+    "chinese": "食",
+    "jyutping": "sik6",
+    "definition": "eat",
+    "pronunciation": {
+      "sound": "sik",
+      "description": "Start with a clear 's' sound, then move into a short 'ik' vowel like in 'sit' but tighter, ending quickly with a crisp stop.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "faan6_rice": {
+    "chinese": "飯",
+    "jyutping": "faan6",
+    "definition": "rice",
+    "pronunciation": {
+      "sound": "fahn",
+      "description": "Start with a clear 'f' sound, then open into 'aan' like in 'father', ending with a soft nasal 'n' sound.",
+      "tone": "low level — voice stays steady and low"
     }
   }
 }

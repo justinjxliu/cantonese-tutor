@@ -76,5 +76,187 @@
         "jyutping": "nei5 faan1 hok6 faan1 dou3 ngaan5 m4 ngaan5 fan3"
       }
     ]
+  },
+  {
+    "id": "lesson_004_happy",
+    "phrase": "I am happy",
+    "characters": "我好開心",
+    "jyutping": "ngo5 hou2 hoi1 sam1",
+    "vocabulary": ["ngo5_I", "hou2_good", "hoi1_sam1_happy"],
+    "pronunciation": ["ngo5_I", "hou2_good", "hoi1_open", "sam1_heart"],
+    "grammar": "Cantonese often uses intensifiers like '好' (very) to express adjectives naturally. Instead of a verb like 'am happy', you say 'I very happy'.",
+    "practice": [
+      {
+        "phrase": "I am very happy today",
+        "characters": "我今日好開心",
+        "jyutping": "ngo5 gam1 jat6 hou2 hoi1 sam1"
+      },
+      {
+        "phrase": "You are happy",
+        "characters": "你開心",
+        "jyutping": "nei5 hoi1 sam1"
+      },
+      {
+        "phrase": "She is very happy",
+        "characters": "佢好開心",
+        "jyutping": "keoi5 hou2 hoi1 sam1"
+      }
+    ]
+  },
+  {
+    "id": "lesson_005_tired",
+    "phrase": "I am tired",
+    "characters": "我好攰",
+    "jyutping": "ngo5 hou2 gui6",
+    "vocabulary": ["ngo5_I", "hou2_good", "gui6_tired"],
+    "pronunciation": ["ngo5_I", "hou2_good", "gui6_tired"],
+    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of 'I am tired', you say 'I very tired'.",
+    "practice": [
+      {
+        "phrase": "I am so tired after work today",
+        "characters": "我今日放工之後好攰",
+        "jyutping": "ngo5 gam1 jat6 fong3 gung1 zi1 hau6 hou2 gui6"
+      },
+      {
+        "phrase": "Don't bother me, I'm tired",
+        "characters": "唔好煩我，我好攰",
+        "jyutping": "m4 hou2 faan4 ngo5 ngo5 hou2 gui6"
+      },
+      {
+        "phrase": "Are you tired from studying",
+        "characters": "你讀書讀到攰唔攰",
+        "jyutping": "nei5 duk6 syu1 duk6 dou3 gui6 m4 gui6"
+      }
+    ]
+  },
+  {
+    "id": "lesson_006_busy",
+    "phrase": "I am busy",
+    "characters": "我好忙",
+    "jyutping": "ngo5 hou2 mong4",
+    "vocabulary": ["ngo5_I", "hou2_good", "mong4_busy"],
+    "pronunciation": ["ngo5_I", "hou2_good", "mong4_busy"],
+    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of 'I am busy', you say 'I very busy'.",
+    "practice": [
+      {
+        "phrase": "I am very busy today",
+        "characters": "我今日好忙",
+        "jyutping": "ngo5 gam1 jat6 hou2 mong4"
+      },
+      {
+        "phrase": "Sorry, I am busy",
+        "characters": "唔好意思，我好忙",
+        "jyutping": "m4 hou2 ji3 si1 ngo5 hou2 mong4"
+      },
+      {
+        "phrase": "Are you busy now",
+        "characters": "你而家忙唔忙",
+        "jyutping": "nei5 ji4 gaa1 mong4 m4 mong4"
+      }
+    ]
+  },
+  {
+    "id": "lesson_007_sick",
+    "phrase": "I am sick",
+    "characters": "我病咗",
+    "jyutping": "ngo5 beng6 zo2",
+    "vocabulary": ["ngo5_I", "beng6_sick", "zo2_completed"],
+    "pronunciation": ["ngo5_I", "beng6_sick", "zo2_completed"],
+    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of saying 'I am sick', you say 'I very sick'.",
+    "practice": [
+      {
+        "phrase": "I got sick yesterday",
+        "characters": "我尋日病咗",
+        "jyutping": "ngo5 cam4 jat6 beng6 zo2"
+      },
+      {
+        "phrase": "I think I'm getting sick",
+        "characters": "我好似病咗",
+        "jyutping": "ngo5 hou2 ci5 beng6 zo2"
+      },
+      {
+        "phrase": "I got sick so I can't go out today",
+        "characters": "我病咗，所以今日出唔到街",
+        "jyutping": "ngo5 beng6 zo2 so2 ji5 gam1 jat6 ceot1 m4 dou2 gaai1"
+      }
+    ]
+  },
+  {
+    "id": "lesson_008_dont_want_to_go_out",
+    "phrase": "I don't want to go out",
+    "characters": "我唔想出街",
+    "jyutping": "ngo5 m4 soeng2 ceot1 gaai1",
+    "vocabulary": ["ngo5_I", "m4_not", "soeng2_want", "ceot1_gaai1_go_out"],
+    "pronunciation": ["ngo5_I", "m4_not", "soeng2_want", "ceot1_go_out", "gaai1_street"],
+    "grammar": "Cantonese uses '唔想' to express 'don't want to' or 'don't feel like'. This is more natural than directly translating English structures.",
+    "practice": [
+      {
+        "phrase": "I really don't want to go out today",
+        "characters": "我今日真係唔想出街",
+        "jyutping": "ngo5 gam1 jat6 zan1 hai6 m4 soeng2 ceot1 gaai1"
+      },
+      {
+        "phrase": "I don't want to go out because it's too cold",
+        "characters": "太凍，我唔想出街",
+        "jyutping": "taai3 dung3 ngo5 m4 soeng2 ceot1 gaai1"
+      },
+      {
+        "phrase": "I still don't want to go out",
+        "characters": "我都唔想出街",
+        "jyutping": "ngo5 dou1 m4 soeng2 ceot1 gaai1"
+      }
+    ]
+  },
+  {
+    "id": "lesson_009_dont_like_coffee",
+    "phrase": "I don't like coffee",
+    "characters": "我唔鍾意咖啡",
+    "jyutping": "ngo5 m4 zung1 ji3 gaa3 fe1",
+    "vocabulary": ["ngo5_I", "m4_not", "zung1_ji3_like", "gaa3_fe1_coffee"],
+    "pronunciation": ["ngo5_I", "m4_not", "zung1_focus", "ji3_thought", "gaa3_coffee_component", "fe1_coffee_component"],
+    "grammar": "Cantonese uses '唔鍾意' to express 'don't like'. It is the standard way to express preference or dislike.",
+    "practice": [
+      {
+        "phrase": "I don't like coffee in the morning",
+        "characters": "我朝早唔鍾意咖啡",
+        "jyutping": "ngo5 ziu1 zou2 m4 zung1 ji3 gaa3 fe1"
+      },
+      {
+        "phrase": "I really don't like coffee",
+        "characters": "我真係唔鍾意咖啡",
+        "jyutping": "ngo5 zan1 hai6 m4 zung1 ji3 gaa3 fe1"
+      },
+      {
+        "phrase": "I don't like coffee when it's cold",
+        "characters": "凍嘅時候我唔鍾意咖啡",
+        "jyutping": "dung3 ge3 si4 hau6 ngo5 m4 zung1 ji3 gaa3 fe1"
+      }
+    ]
+  },
+  {
+    "id": "lesson_010_eat_rice",
+    "phrase": "I want to eat rice",
+    "characters": "我想食飯",
+    "jyutping": "ngo5 soeng2 sik6 faan6",
+    "vocabulary": ["ngo5_I", "soeng2_want", "sik6_eat", "faan6_rice"],
+    "pronunciation": ["ngo5_I", "soeng2_want", "sik6_eat", "faan6_rice"],
+    "grammar": "Cantonese uses '想' (want) + verb directly. There is no need for 'to' as in English. '想食' = want to eat.",
+    "practice": [
+      {
+        "phrase": "I want to eat rice now",
+        "characters": "我而家想食飯",
+        "jyutping": "ngo5 ji4 gaa1 soeng2 sik6 faan6"
+      },
+      {
+        "phrase": "I don't want to eat rice",
+        "characters": "我唔想食飯",
+        "jyutping": "ngo5 m4 soeng2 sik6 faan6"
+      },
+      {
+        "phrase": "Do you want to eat rice with me",
+        "characters": "你想唔想同我食飯",
+        "jyutping": "nei5 soeng2 m4 soeng2 tung4 ngo5 sik6 faan6"
+      }
+    ]
   }
 ]
