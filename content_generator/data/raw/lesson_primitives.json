@@ -1,262 +1,382 @@
-[
-  {
-    "id": "lesson_001_hungry",
-    "phrase": "I am hungry",
-    "characters": "我肚餓",
-    "jyutping": "ngo5 tou5 ngo6",
-    "vocabulary": ["ngo5_I", "tou5_ngo6_hungry"],
-    "pronunciation": ["ngo5_I", "tou5_stomach", "ngo6_hungry"],
-    "grammar": "Cantonese often omits 'to be' in simple descriptions. Instead of saying 'I am hungry', you simply say 'I hungry'. This is normal and natural in Cantonese.",
-    "practice": [
-      {
-        "phrase": "I am hungry now",
-        "characters": "我而家肚餓",
-        "jyutping": "ngo5 ji4 gaa1 tou5 ngo6"
-      },
-      {
-        "phrase": "I am not hungry",
-        "characters": "我唔肚餓",
-        "jyutping": "ngo5 m4 tou5 ngo6"
-      },
-      {
-        "phrase": "Are you hungry",
-        "characters": "你肚唔肚餓",
-        "jyutping": "nei5 tou5 m4 tou5 ngo6"
-      }
-    ]
+{
+  "templates": {
+    "state": {
+      "phrase": "I am {english}",
+      "characters": "我{cantonese}",
+      "jyutping": "ngo5 {jyutping}",
+      "vocabulary": ["ngo5_I"],
+      "pronunciation": ["ngo5_I"],
+      "mode": "append",
+      "grammar": "Cantonese often omits 'to be'. Instead of saying 'I am {english}', you say 'I {english}'. In Cantonese, this is 我{cantonese}.",
+      "practice": [
+        {
+          "phrase": "I am {english} now",
+          "characters": "我而家{cantonese}",
+          "jyutping": "ngo5 ji4 gaa1 {jyutping}"
+        },
+        {
+          "phrase": "I am not {english}",
+          "characters": "我唔{cantonese}",
+          "jyutping": "ngo5 m4 {jyutping}"
+        },
+        {
+          "phrase": "Are you {english}",
+          "characters": "你{cantonese}呀",
+          "jyutping": "nei5 {jyutping} aa3"
+        },
+        {
+          "phrase": "I am {english} after exercising",
+          "characters": "我做完運動之後{cantonese}",
+          "jyutping": "ngo5 zou6 jyun4 wan6 dung6 zi1 hau6 {jyutping}"
+        },
+        {
+          "phrase": "I'm not {english} this morning",
+          "characters": "我今朝唔{cantonese}",
+          "jyutping": "ngo5 gam1 ziu1 m4 {jyutping}"
+        },
+        {
+          "phrase": "Are you {english} after school",
+          "characters": "你返學之後{cantonese}呀",
+          "jyutping": "nei5 faan1 hok6 zi1 hau6 {jyutping} aa3"
+        }
+      ]
+    },
+    "intensifier": {
+      "phrase": "I am {english}",
+      "characters": "我好{cantonese}",
+      "jyutping": "ngo5 hou2 {jyutping}",
+      "vocabulary": ["ngo5_I", "hou2_very"],
+      "pronunciation": ["ngo5_I", "hou2_very"],
+      "mode": "append",
+      "grammar": "In Cantonese, adjectives often use '好'. So 'I am {english}' becomes 我好{cantonese}.",
+      "practice": [
+        {
+          "phrase": "I am {english} right now",
+          "characters": "我而家好{cantonese}",
+          "jyutping": "ngo5 ji4 gaa1 hou2 {jyutping}"
+        },
+        {
+          "phrase": "You are {english}",
+          "characters": "你好{cantonese}呀",
+          "jyutping": "nei5 hou2 {jyutping} aa3"
+        },
+        {
+          "phrase": "She is {english}",
+          "characters": "佢好{cantonese}",
+          "jyutping": "keoi5 hou2 {jyutping}"
+        },
+        {
+          "phrase": "I am so {english} after finishing work today",
+          "characters": "我今日放工之後好{cantonese}",
+          "jyutping": "ngo5 gam1 jat6 fong3 gung1 zi1 hau6 hou2 {jyutping}"
+        },
+        {
+          "phrase": "Don't bother me, I'm {english}",
+          "characters": "唔好煩我，我好{cantonese}",
+          "jyutping": "m4 hou2 faan4 ngo5 ngo5 hou2 {jyutping}"
+        },   
+        {
+          "phrase": "Do you feel {english} after studying",
+          "characters": "你讀書讀到{cantonese}呀",
+          "jyutping": "nei5 duk6 syu1 duk6 dou3 {jyutping} aa3"
+        },
+        {
+          "phrase": "Sorry, I am {english}",
+          "characters": "唔好意思，我好{cantonese}",
+          "jyutping": "m4 hou2 ji3 si1 ngo5 hou2 {jyutping}"
+        }
+      ]
+    },
+    "happened": {
+      "phrase": "I {english}",
+      "characters": "我{cantonese}咗",
+      "jyutping": "ngo5 {jyutping} zo2",
+      "vocabulary": ["ngo5_I", "VERB", "zo2_completed"],
+      "pronunciation": ["ngo5_I", "VERB", "zo2_completed"],
+      "mode": "replace",
+      "grammar": "Cantonese uses '咗' to indicate completion of an action. It means 'already did'. So 'I {english}' becomes 我{cantonese}咗, meaning the action has been completed.",
+      "practice": [
+        {
+          "phrase": "I {english} yesterday",
+          "characters": "我尋日{cantonese}咗",
+          "jyutping": "ngo5 cam4 jat6 {jyutping} zo2"
+        },
+        {
+          "phrase": "I think I {english}",
+          "characters": "我好似{cantonese}咗",
+          "jyutping": "ngo5 hou2 ci5 {jyutping} zo2"
+        },
+        {
+          "phrase": "I {english} so I can't go out today",
+          "characters": "我{cantonese}咗，所以今日出唔到街",
+          "jyutping": "ngo5 {jyutping} zo2 so2 ji5 gam1 jat6 ceot1 m4 dou2 gaai1"
+        }
+      ]
+    },
+    "want": {
+      "phrase": "I want {english}",
+      "characters": "我想{cantonese}",
+      "jyutping": "ngo5 soeng2 {jyutping}",
+      "vocabulary": ["ngo5_I", "soeng2_want"],
+      "pronunciation": ["ngo5_I", "soeng2_want"],
+      "mode": "append",
+      "grammar": "Cantonese uses '想' (soeng2) to express 'want to'. It is placed directly before a verb, without needing 'to' like in English. So 'I want {english}' becomes 我想{cantonese}.",
+      "practice": [
+        {
+          "phrase": "I really want {english} today",
+          "characters": "我今日真係想{cantonese}",
+          "jyutping": "ngo5 gam1 jat6 zan1 hai6 soeng2 {jyutping}"
+        },
+        {
+          "phrase": "I don't want {english} because it's too cold",
+          "characters": "太凍，我唔想{cantonese}",
+          "jyutping": "taai3 dung3 ngo5 m4 soeng2 {jyutping}"
+        },
+        {
+          "phrase": "I still don't want {english}",
+          "characters": "我都唔想{cantonese}",
+          "jyutping": "ngo5 dou1 m4 soeng2 {jyutping}"
+        },
+        {
+          "phrase": "I want {english} now",
+          "characters": "我而家想{cantonese}",
+          "jyutping": "ngo5 ji4 gaa1 soeng2 {jyutping}"
+        }
+      ]
+    },
+    "like": {
+      "phrase": "I like {english}",
+      "characters": "我鍾意{cantonese}",
+      "jyutping": "ngo5 zung1 ji3 {jyutping}",
+      "vocabulary": ["ngo5_I", "zung1_ji3_like"],
+      "pronunciation": ["ngo5_I", "zung1_focus", "ji3_thought"],
+      "mode": "append",
+      "grammar": "Cantonese uses '鍾意' (zung1 ji3) to express 'like'. It is placed directly before a noun or verb, without needing extra words. So 'I like {english}' becomes 我鍾意{cantonese}.",
+      "practice": [
+        {
+          "phrase": "I like {english} in the morning",
+          "characters": "我朝早鍾意{cantonese}",
+          "jyutping": "ngo5 ziu1 zou2 zung1 ji3 {jyutping}"
+        },
+        {
+          "phrase": "I really like {english}",
+          "characters": "我真係鍾意{cantonese}",
+          "jyutping": "ngo5 zan1 hai6 zung1 ji3 {jyutping}"
+        },
+        {
+          "phrase": "I don't like {english} when it's cold",
+          "characters": "凍嘅時候我唔鍾意{cantonese}",
+          "jyutping": "dung3 ge3 si4 hau6 ngo5 m4 zung1 ji3 {jyutping}"
+        }
+      ]
+    },
+    "where": {
+      "phrase": "Where is {english}",
+      "characters": "{cantonese}喺邊度",
+      "jyutping": "{jyutping} hai2 bin1 dou6",
+      "vocabulary": ["hai2_at", "bin1_dou6_where"],
+      "pronunciation": ["hai2_at", "bin1_which", "dou6_place"],
+      "mode": "prepend",
+      "grammar": "Cantonese uses '喺邊度' to ask where something is. It is placed after the noun. So 'Where is {english}' becomes {cantonese}喺邊度.",
+      "practice": [
+        {
+          "phrase": "Excuse me, where is {english}",
+          "characters": "唔該，{cantonese}喺邊度",
+          "jyutping": "m4 goi1, {jyutping} hai2 bin1 dou6"
+        },
+        {
+          "phrase": "Sir, where is {english}",
+          "characters": "先生，{cantonese}喺邊度",
+          "jyutping": "sin1 saang1, {jyutping} hai2 bin1 dou6"
+        },
+        {
+          "phrase": "May I ask, where is {english}",
+          "characters": "請問，{cantonese}喺邊度",
+          "jyutping": "cing2 man6, {jyutping} hai2 bin1 dou6"
+        }
+      ]
+    },
+    "can": {
+      "phrase": "I can {english}",
+      "characters": "我{cantonese}到",
+      "jyutping": "ngo5 {jyutping} dou2",
+      "vocabulary": ["ngo5_I", "VERB", "dou2_can"],
+      "pronunciation": ["ngo5_I", "VERB", "dou2_can"],
+      "mode": "replace",
+      "grammar": "Cantonese expresses ability using verb + 到. It means being able to successfully do something.",
+      "practice": [
+        {
+          "phrase": "I think I can {english}",
+          "characters": "我覺得我{cantonese}得到",
+          "jyutping": "ngo5 gok3 dak1 ngo5 {jyutping} dak1 dou2"
+        },
+        {
+          "phrase": "I cannot {english} it",
+          "characters": "我{cantonese}唔到",
+          "jyutping": "ngo5 {jyutping} m4 dou2"
+        },
+        {
+          "phrase": "Can you {english} it by today",
+          "characters": "你今日{cantonese}到呀",
+          "jyutping": "nei5 gam1 jat6 {jyutping} dou2 aa3"
+        }
+      ]
+    }
   },
-  {
-    "id": "lesson_002_thirsty",
-    "phrase": "I am thirsty",
-    "characters": "我口渴",
-    "jyutping": "ngo5 hau2 hot3",
-    "vocabulary": ["ngo5_I", "hau2_hot3_thirsty"],
-    "pronunciation": ["ngo5_I", "hau2_mouth", "hot3_thirsty"],
-    "grammar": "Cantonese often omits 'to be' in simple descriptions. Instead of saying 'I am thirsty', you simply say 'I thirsty'. This is normal and natural in Cantonese.",
-    "practice": [
+  "fillers": {
+    "state": [
       {
-        "phrase": "I am thirsty now",
-        "characters": "我而家口渴",
-        "jyutping": "ngo5 ji4 gaa1 hau2 hot3"
+        "english": "hungry",
+        "cantonese": "肚餓",
+        "jyutping": "tou5 ngo6",
+        "vocabulary": ["tou5_ngo6_hungry"],
+        "pronunciation": ["tou5_stomach", "ngo6_hungry"]
       },
       {
-        "phrase": "I am not thirsty",
-        "characters": "我唔口渴",
-        "jyutping": "ngo5 m4 hau2 hot3"
+        "english": "thirsty",
+        "cantonese": "口渴",
+        "jyutping": "hau2 hot3",
+        "vocabulary": ["hau2_hot3_thirsty"],
+        "pronunciation": ["hau2_mouth", "hot3_thirsty"]
       },
       {
-        "phrase": "Are you thirsty",
-        "characters": "你口渴呀",
-        "jyutping": "nei5 hau2 hot3 aa3"
+        "english": "sleepy",
+        "cantonese": "眼瞓",
+        "jyutping": "ngaan5 fan3",
+        "vocabulary": ["ngaan5_fan3_sleepy"],
+        "pronunciation": ["ngaan5_eye", "fan3_sleep"]
+      },
+      {
+        "english": "sad",
+        "cantonese": "唔開心",
+        "jyutping": "m4 hoi1 sam1",
+        "vocabulary": ["m4_not", "hoi1_sam1_happy"],
+        "pronunciation": ["m4_not", "hoi1_open", "sam1_heart"]
+      },
+      {
+        "english": "cold",
+        "cantonese": "凍",
+        "jyutping": "dung3",
+        "vocabulary": ["dung3_cold"],
+        "pronunciation": ["dung3_cold"]
       }
-    ]
-  },
-  {
-    "id": "lesson_003_sleepy",
-    "phrase": "I am sleepy",
-    "characters": "我眼瞓",
-    "jyutping": "ngo5 ngaan5 fan3",
-    "vocabulary": ["ngo5_I", "ngaan5_fan3_sleepy"],
-    "pronunciation": ["ngo5_I", "ngaan5_eye", "fan3_sleep"],
-    "grammar": "Cantonese often omits 'to be' in simple descriptions. Instead of saying 'I am sleepy', you simply say 'I sleepy'.",
-    "practice": [
+    ],
+    "intensifier": [
       {
-        "phrase": "I got sleepy from reading",
-        "characters": "我睇書睇到眼瞓",
-        "jyutping": "ngo5 tai2 syu1 tai2 dou3 ngaan5 fan3"
+        "english": "happy",
+        "cantonese": "開心",
+        "jyutping": "hoi1 sam1",
+        "vocabulary": ["hoi1_sam1_happy"],
+        "pronunciation": ["hoi1_open", "sam1_heart"]
       },
       {
-        "phrase": "I'm not sleepy this morning",
-        "characters": "我今朝唔眼瞓",
-        "jyutping": "ngo5 gam1 ziu1 m4 ngaan5 fan3"
+        "english": "tired",
+        "cantonese": "攰",
+        "jyutping": "gui6",
+        "vocabulary": ["gui6_tired"],
+        "pronunciation": ["gui6_tired"]
       },
       {
-        "phrase": "Did you get sleepy after school",
-        "characters": "你返學返到眼唔眼瞓",
-        "jyutping": "nei5 faan1 hok6 faan1 dou3 ngaan5 m4 ngaan5 fan3"
+        "english": "busy",
+        "cantonese": "忙",
+        "jyutping": "mong4",
+        "vocabulary": ["mong4_busy"],
+        "pronunciation": ["mong4_busy"]
+      },
+      {
+        "english": "angry",
+        "cantonese": "嬲",
+        "jyutping": "nau1",
+        "vocabulary": ["nau1_angry"],
+        "pronunciation": ["nau1_angry"]
+      },
+      {
+        "english": "scared",
+        "cantonese": "驚",
+        "jyutping": "geng1",
+        "vocabulary": ["geng1_scared"],
+        "pronunciation": ["geng1_scared"]
       }
-    ]
-  },
-  {
-    "id": "lesson_004_happy",
-    "phrase": "I am happy",
-    "characters": "我好開心",
-    "jyutping": "ngo5 hou2 hoi1 sam1",
-    "vocabulary": ["ngo5_I", "hou2_good", "hoi1_sam1_happy"],
-    "pronunciation": ["ngo5_I", "hou2_good", "hoi1_open", "sam1_heart"],
-    "grammar": "Cantonese often uses intensifiers like '好' (very) to express adjectives naturally. Instead of a verb like 'am happy', you say 'I very happy'.",
-    "practice": [
+    ],
+    "happened": [
       {
-        "phrase": "I am very happy today",
-        "characters": "我今日好開心",
-        "jyutping": "ngo5 gam1 jat6 hou2 hoi1 sam1"
+        "english": "fell sick",
+        "cantonese": "病",
+        "jyutping": "beng6",
+        "vocabulary": ["beng6_sick"],
+        "pronunciation": ["beng6_sick"]
       },
       {
-        "phrase": "You are happy",
-        "characters": "你開心",
-        "jyutping": "nei5 hoi1 sam1"
+        "english": "did it",
+        "cantonese": "做",
+        "jyutping": "zou6",
+        "vocabulary": ["zou6_do"],
+        "pronunciation": ["zou6_do"]
       },
       {
-        "phrase": "She is very happy",
-        "characters": "佢好開心",
-        "jyutping": "keoi5 hou2 hoi1 sam1"
+        "english": "arrived",
+        "cantonese": "到",
+        "jyutping": "dou3",
+        "vocabulary": ["dou3_arrive"],
+        "pronunciation": ["dou3_arrive"]
+      },
+      {
+        "english": "ate it",
+        "cantonese": "食",
+        "jyutping": "sik6",
+        "vocabulary": ["sik6_eat"],
+        "pronunciation": ["sik6_eat"]
+      },
+      {
+        "english": "bought it",
+        "cantonese": "買",
+        "jyutping": "maai5",
+        "vocabulary": ["maai5_buy"],
+        "pronunciation": ["maai5_buy"]
       }
-    ]
-  },
-  {
-    "id": "lesson_005_tired",
-    "phrase": "I am tired",
-    "characters": "我好攰",
-    "jyutping": "ngo5 hou2 gui6",
-    "vocabulary": ["ngo5_I", "hou2_good", "gui6_tired"],
-    "pronunciation": ["ngo5_I", "hou2_good", "gui6_tired"],
-    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of 'I am tired', you say 'I very tired'.",
-    "practice": [
+    ],
+    "want": [
       {
-        "phrase": "I am so tired after work today",
-        "characters": "我今日放工之後好攰",
-        "jyutping": "ngo5 gam1 jat6 fong3 gung1 zi1 hau6 hou2 gui6"
+        "english": "to go out",
+        "cantonese": "出街",
+        "jyutping": "ceot1 gaai1",
+        "vocabulary": ["ceot1_gaai1_go_out"],
+        "pronunciation": ["ceot1_go_out", "gaai1_street"]
       },
       {
-        "phrase": "Don't bother me, I'm tired",
-        "characters": "唔好煩我，我好攰",
-        "jyutping": "m4 hou2 faan4 ngo5 ngo5 hou2 gui6"
-      },
-      {
-        "phrase": "Are you tired from studying",
-        "characters": "你讀書讀到攰唔攰",
-        "jyutping": "nei5 duk6 syu1 duk6 dou3 gui6 m4 gui6"
+        "english": "to eat",
+        "cantonese": "食飯",
+        "jyutping": "sik6 faan6",
+        "vocabulary": ["sik6_eat", "faan6_meal"],
+        "pronunciation": ["sik6_eat", "faan6_meal"]
       }
-    ]
-  },
-  {
-    "id": "lesson_006_busy",
-    "phrase": "I am busy",
-    "characters": "我好忙",
-    "jyutping": "ngo5 hou2 mong4",
-    "vocabulary": ["ngo5_I", "hou2_good", "mong4_busy"],
-    "pronunciation": ["ngo5_I", "hou2_good", "mong4_busy"],
-    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of 'I am busy', you say 'I very busy'.",
-    "practice": [
+    ],
+    "like": [
       {
-        "phrase": "I am very busy today",
-        "characters": "我今日好忙",
-        "jyutping": "ngo5 gam1 jat6 hou2 mong4"
-      },
-      {
-        "phrase": "Sorry, I am busy",
-        "characters": "唔好意思，我好忙",
-        "jyutping": "m4 hou2 ji3 si1 ngo5 hou2 mong4"
-      },
-      {
-        "phrase": "Are you busy now",
-        "characters": "你而家忙唔忙",
-        "jyutping": "nei5 ji4 gaa1 mong4 m4 mong4"
+        "english": "coffee",
+        "cantonese": "咖啡",
+        "jyutping": "gaa3 fe1",
+        "vocabulary": ["gaa3_fe1_coffee"],
+        "pronunciation": ["gaa3_coffee_component", "fe1_coffee_component"]
       }
-    ]
-  },
-  {
-    "id": "lesson_007_sick",
-    "phrase": "I am sick",
-    "characters": "我病咗",
-    "jyutping": "ngo5 beng6 zo2",
-    "vocabulary": ["ngo5_I", "beng6_sick", "zo2_completed"],
-    "pronunciation": ["ngo5_I", "beng6_sick", "zo2_completed"],
-    "grammar": "Cantonese often uses '好' as an intensifier before adjectives. Instead of saying 'I am sick', you say 'I very sick'.",
-    "practice": [
+    ],
+    "where": [
       {
-        "phrase": "I got sick yesterday",
-        "characters": "我尋日病咗",
-        "jyutping": "ngo5 cam4 jat6 beng6 zo2"
-      },
-      {
-        "phrase": "I think I'm getting sick",
-        "characters": "我好似病咗",
-        "jyutping": "ngo5 hou2 ci5 beng6 zo2"
-      },
-      {
-        "phrase": "I got sick so I can't go out today",
-        "characters": "我病咗，所以今日出唔到街",
-        "jyutping": "ngo5 beng6 zo2 so2 ji5 gam1 jat6 ceot1 m4 dou2 gaai1"
+        "english": "the toilet",
+        "cantonese": "廁所",
+        "jyutping": "ci3 so2",
+        "vocabulary": ["ci3_so2_toilet"],
+        "pronunciation": ["ci3_toilet", "so2_place"]
       }
-    ]
-  },
-  {
-    "id": "lesson_008_dont_want_to_go_out",
-    "phrase": "I don't want to go out",
-    "characters": "我唔想出街",
-    "jyutping": "ngo5 m4 soeng2 ceot1 gaai1",
-    "vocabulary": ["ngo5_I", "m4_not", "soeng2_want", "ceot1_gaai1_go_out"],
-    "pronunciation": ["ngo5_I", "m4_not", "soeng2_want", "ceot1_go_out", "gaai1_street"],
-    "grammar": "Cantonese uses '唔想' to express 'don't want to' or 'don't feel like'. This is more natural than directly translating English structures.",
-    "practice": [
+    ],
+    "can": [
       {
-        "phrase": "I really don't want to go out today",
-        "characters": "我今日真係唔想出街",
-        "jyutping": "ngo5 gam1 jat6 zan1 hai6 m4 soeng2 ceot1 gaai1"
-      },
-      {
-        "phrase": "I don't want to go out because it's too cold",
-        "characters": "太凍，我唔想出街",
-        "jyutping": "taai3 dung3 ngo5 m4 soeng2 ceot1 gaai1"
-      },
-      {
-        "phrase": "I still don't want to go out",
-        "characters": "我都唔想出街",
-        "jyutping": "ngo5 dou1 m4 soeng2 ceot1 gaai1"
-      }
-    ]
-  },
-  {
-    "id": "lesson_009_dont_like_coffee",
-    "phrase": "I don't like coffee",
-    "characters": "我唔鍾意咖啡",
-    "jyutping": "ngo5 m4 zung1 ji3 gaa3 fe1",
-    "vocabulary": ["ngo5_I", "m4_not", "zung1_ji3_like", "gaa3_fe1_coffee"],
-    "pronunciation": ["ngo5_I", "m4_not", "zung1_focus", "ji3_thought", "gaa3_coffee_component", "fe1_coffee_component"],
-    "grammar": "Cantonese uses '唔鍾意' to express 'don't like'. It is the standard way to express preference or dislike.",
-    "practice": [
-      {
-        "phrase": "I don't like coffee in the morning",
-        "characters": "我朝早唔鍾意咖啡",
-        "jyutping": "ngo5 ziu1 zou2 m4 zung1 ji3 gaa3 fe1"
-      },
-      {
-        "phrase": "I really don't like coffee",
-        "characters": "我真係唔鍾意咖啡",
-        "jyutping": "ngo5 zan1 hai6 m4 zung1 ji3 gaa3 fe1"
-      },
-      {
-        "phrase": "I don't like coffee when it's cold",
-        "characters": "凍嘅時候我唔鍾意咖啡",
-        "jyutping": "dung3 ge3 si4 hau6 ngo5 m4 zung1 ji3 gaa3 fe1"
-      }
-    ]
-  },
-  {
-    "id": "lesson_010_eat_rice",
-    "phrase": "I want to eat rice",
-    "characters": "我想食飯",
-    "jyutping": "ngo5 soeng2 sik6 faan6",
-    "vocabulary": ["ngo5_I", "soeng2_want", "sik6_eat", "faan6_rice"],
-    "pronunciation": ["ngo5_I", "soeng2_want", "sik6_eat", "faan6_rice"],
-    "grammar": "Cantonese uses '想' (want) + verb directly. There is no need for 'to' as in English. '想食' = want to eat.",
-    "practice": [
-      {
-        "phrase": "I want to eat rice now",
-        "characters": "我而家想食飯",
-        "jyutping": "ngo5 ji4 gaa1 soeng2 sik6 faan6"
-      },
-      {
-        "phrase": "I don't want to eat rice",
-        "characters": "我唔想食飯",
-        "jyutping": "ngo5 m4 soeng2 sik6 faan6"
-      },
-      {
-        "phrase": "Do you want to eat rice with me",
-        "characters": "你想唔想同我食飯",
-        "jyutping": "nei5 soeng2 m4 soeng2 tung4 ngo5 sik6 faan6"
+        "english": "do it",
+        "cantonese": "做",
+        "jyutping": "dou2",
+        "vocabulary": ["zou6_do"],
+        "pronunciation": ["zou6_do"]
       }
     ]
   }
-]
+}

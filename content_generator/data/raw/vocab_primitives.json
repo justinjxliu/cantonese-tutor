@@ -1,6 +1,6 @@
 {
   "ngo5_I": {
-    "chinese": "我",
+    "characters": "我",
     "jyutping": "ngo5",
     "definition": "I",
     "pronunciation": {
@@ -10,13 +10,13 @@
     }
   },
   "tou5_ngo6_hungry": {
-    "chinese": "肚餓",
+    "characters": "肚餓",
     "jyutping": "tou5 ngo6",
     "definition": "hungry",
     "pronunciation": null
   },
   "tou5_stomach": {
-    "chinese": "肚",
+    "characters": "肚",
     "jyutping": "tou5",
     "definition": "stomach",
     "pronunciation": {
@@ -26,7 +26,7 @@
     }
   },
   "ngo6_hungry": {
-    "chinese": "餓",
+    "characters": "餓",
     "jyutping": "ngo6",
     "definition": "hungry",
     "pronunciation": {
@@ -36,13 +36,13 @@
     }
   },
   "hau2_hot3_thirsty": {
-    "chinese": "口渴",
+    "characters": "口渴",
     "jyutping": "hau2 hot3",
     "definition": "thirsty",
     "pronunciation": null
   },
   "hau2_mouth": {
-    "chinese": "口",
+    "characters": "口",
     "jyutping": "hau2",
     "definition": "mouth",
     "pronunciation": {
@@ -52,7 +52,7 @@
     }
   },
   "hot3_thirsty": {
-    "chinese": "渴",
+    "characters": "渴",
     "jyutping": "hot3",
     "definition": "thirsty",
     "pronunciation": {
@@ -62,13 +62,13 @@
     }
   },
   "ngaan5_fan3_sleepy": {
-    "chinese": "眼瞓",
+    "characters": "眼瞓",
     "jyutping": "ngaan5 fan3",
     "definition": "sleepy",
     "pronunciation": null
   },
   "ngaan5_eye": {
-    "chinese": "眼",
+    "characters": "眼",
     "jyutping": "ngaan5",
     "definition": "eye",
     "pronunciation": {
@@ -78,7 +78,7 @@
     }
   },
   "fan3_sleep": {
-    "chinese": "瞓",
+    "characters": "瞓",
     "jyutping": "fan3",
     "definition": "sleep",
     "pronunciation": {
@@ -87,10 +87,10 @@
       "tone": "mid level — voice stays steady around mid pitch"
     }
   },
-  "hou2_good": {
-    "chinese": "好",
+  "hou2_very": {
+    "characters": "好",
     "jyutping": "hou2",
-    "definition": "good / very (intensifier)",
+    "definition": "very / good",
     "pronunciation": {
       "sound": "ho",
       "description": "Start with a clear 'h' sound, then add 'oh' like in 'go', keeping the vowel smooth and slightly rising toward the end",
@@ -98,13 +98,13 @@
     }
   },
   "hoi1_sam1_happy": {
-    "chinese": "開心",
+    "characters": "開心",
     "jyutping": "hoi1 sam1",
     "definition": "happy",
     "pronunciation": null
   },
   "hoi1_open": {
-    "chinese": "開",
+    "characters": "開",
     "jyutping": "hoi1",
     "definition": "open",
     "pronunciation": {
@@ -114,7 +114,7 @@
     }
   },
   "sam1_heart": {
-    "chinese": "心",
+    "characters": "心",
     "jyutping": "sam1",
     "definition": "heart",
     "pronunciation": {
@@ -124,7 +124,7 @@
     }
   },
   "gui6_tired": {
-    "chinese": "攰",
+    "characters": "攰",
     "jyutping": "gui6",
     "definition": "tired",
     "pronunciation": {
@@ -134,17 +134,17 @@
     }
   },
   "mong4_busy": {
-    "chinese": "忙",
+    "characters": "忙",
     "jyutping": "mong4",
     "definition": "busy",
     "pronunciation": {
       "sound": "mawng",
       "description": "Start with a soft 'm' sound, then glide into 'awng' (like 'mawng'), keeping the vowel smooth and slightly nasal.",
-      "tone": "mid level — voice stays steady around mid pitch"
+      "tone": "low falling — voice starts low and falls slightly"
     }
   },
   "beng6_sick": {
-    "chinese": "病",
+    "characters": "病",
     "jyutping": "beng6",
     "definition": "sick / illness",
     "pronunciation": {
@@ -154,7 +154,7 @@
     }
   },
   "zo2_completed": {
-    "chinese": "咗",
+    "characters": "咗",
     "jyutping": "zo2",
     "definition": "completed action marker",
     "pronunciation": {
@@ -164,7 +164,7 @@
     }
   },
   "m4_not": {
-    "chinese": "唔",
+    "characters": "唔",
     "jyutping": "m4",
     "definition": "not",
     "pronunciation": {
@@ -174,7 +174,7 @@
     }
   },
   "soeng2_want": {
-    "chinese": "想",
+    "characters": "想",
     "jyutping": "soeng2",
     "definition": "want",
     "pronunciation": {
@@ -184,13 +184,13 @@
     }
   },
   "ceot1_gaai1_go_out": {
-    "chinese": "出街",
+    "characters": "出街",
     "jyutping": "ceot1 gaai1",
     "definition": "go out",
     "pronunciation": null
   },
   "ceot1_go_out": {
-    "chinese": "出",
+    "characters": "出",
     "jyutping": "ceot1",
     "definition": "go out",
     "pronunciation": {
@@ -200,7 +200,7 @@
     }
   },
   "gaai1_street": {
-    "chinese": "街",
+    "characters": "街",
     "jyutping": "gaai1",
     "definition": "street",
     "pronunciation": {
@@ -210,13 +210,13 @@
     }
   },
   "zung1_ji3_like": {
-    "chinese": "鍾意",
+    "characters": "鍾意",
     "jyutping": "zung1 ji3",
     "definition": "like",
     "pronunciation": null
   },
   "zung1_focus": {
-    "chinese": "鍾",
+    "characters": "鍾",
     "jyutping": "zung1",
     "definition": "focus / concentrate",
     "pronunciation": {
@@ -226,7 +226,7 @@
     }
   },
   "ji3_thought": {
-    "chinese": "意",
+    "characters": "意",
     "jyutping": "ji3",
     "definition": "thought / intention",
     "pronunciation": {
@@ -236,7 +236,7 @@
     }
   },
   "gaa3_fe1_coffee": {
-    "chinese": "咖啡",
+    "characters": "咖啡",
     "jyutping": "gaa3 fe1",
     "definition": "coffee",
     "pronunciation": null
@@ -256,7 +256,7 @@
     }
   },
   "sik6_eat": {
-    "chinese": "食",
+    "characters": "食",
     "jyutping": "sik6",
     "definition": "eat",
     "pronunciation": {
@@ -265,14 +265,146 @@
       "tone": "low level — voice stays steady and low"
     }
   },
-  "faan6_rice": {
-    "chinese": "飯",
+  "faan6_meal": {
+    "characters": "飯",
     "jyutping": "faan6",
-    "definition": "rice",
+    "definition": "meal / rice",
     "pronunciation": {
       "sound": "fahn",
       "description": "Start with a clear 'f' sound, then open into 'aan' like in 'father', ending with a soft nasal 'n' sound.",
       "tone": "low level — voice stays steady and low"
+    }
+  },
+  "ci3_so2_toilet": {
+    "characters": "廁所",
+    "jyutping": "ci3 so2",
+    "definition": "toilet / bathroom",
+    "pronunciation": null
+  },
+  "ci3_toilet": {
+    "characters": "廁",
+    "jyutping": "ci3",
+    "definition": "toilet / lavatory",
+    "pronunciation": {
+      "sound": "chi",
+      "description": "Start with a sharp 'ch' sound, similar to 'cheese' but shorter and more clipped. Keep the vowel tight and short.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "so2_place": {
+    "characters": "所",
+    "jyutping": "so2",
+    "definition": "place / location",
+    "pronunciation": {
+      "sound": "soh",
+      "description": "Start with a soft 's' sound, then glide into a rounded 'oh' vowel. Keep the sound smooth and relaxed.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "hai2_at": {
+    "characters": "喺",
+    "jyutping": "hai2",
+    "definition": "to be at / located at",
+    "pronunciation": {
+      "sound": "high",
+      "description": "Start with an 'h' sound, then move into a long 'ai' vowel like in 'high'. Keep the sound smooth and open.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "bin1_dou6_where": {
+    "characters": "邊度",
+    "jyutping": "bin1 dou6",
+    "definition": "where",
+    "pronunciation": null
+  },
+  "bin1_which": {
+    "characters": "邊",
+    "jyutping": "bin1",
+    "definition": "which",
+    "pronunciation": {
+      "sound": "bin",
+      "description": "Start with a clear 'b' sound, then a short 'i' vowel like in 'bit', ending with a light 'n'. Keep it crisp and quick.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "dou6_place": {
+    "characters": "度",
+    "jyutping": "dou6",
+    "definition": "place / location",
+    "pronunciation": {
+      "sound": "doh",
+      "description": "Start with a soft 'd' sound, then move into a rounded 'oh' vowel. Keep the sound smooth and slightly prolonged.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "zou6_do": {
+    "characters": "做",
+    "jyutping": "zou6",
+    "definition": "to do / to make / to handle",
+    "pronunciation": {
+      "sound": "zou",
+      "description": "Start with a soft 'z' sound (close to 'j' in some English approximations), then glide into a rounded 'ou' vowel like in 'go'. End with a light, short tone without stress.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "dou2_can": {
+    "characters": "到",
+    "jyutping": "dou2",
+    "definition": "can / manage to / reach",
+    "pronunciation": {
+      "sound": "doh",
+      "description": "Start with a soft 'd' sound, then move into a rounded 'oh' vowel like in 'go', keeping the sound smooth and slightly open.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "nau1_angry": {
+    "characters": "嬲",
+    "jyutping": "nau1",
+    "definition": "angry / annoyed",
+    "pronunciation": {
+      "sound": "now",
+      "description": "Start with a sharp 'n' sound, followed by a short 'ow' like in 'now', but tighter and more clipped. The mouth stays relatively relaxed but the tone feels slightly tense.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "geng1_scared": {
+    "characters": "驚",
+    "jyutping": "geng1",
+    "definition": "scared / afraid / frightened",
+    "pronunciation": {
+      "sound": "geng",
+      "description": "Start with a hard 'g' sound, followed by a short 'eng' vowel, similar to 'gang' but with the mouth slightly more spread. The sound should feel quick and light, not heavy.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "dung3_cold": {
+    "characters": "凍",
+    "jyutping": "dung3",
+    "definition": "cold",
+    "pronunciation": {
+      "sound": "dung",
+      "description": "Start with a soft 'd' sound, followed by a rounded 'ung' vowel. The tongue stays relaxed and the sound is slightly short and clipped.",
+      "tone":"mid level — voice stays steady around mid pitch"
+    }
+  },
+  "dou3_arrive": {
+    "characters": "到",
+    "jyutping": "dou3",
+    "definition": "arrive / reach / get to",
+    "pronunciation": {
+      "sound": "doh",
+      "description": "Start with a soft 'd' sound and move into a rounded 'oh' vowel. The sound should feel light and neutral, not strongly stressed.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "maai5_buy": {
+    "characters": "買",
+    "jyutping": "maai5",
+    "definition": "buy / purchase",
+    "pronunciation": {
+      "sound": "maai",
+      "description": "Start with an 'm' sound, then glide into a long 'aa' vowel like in 'father', ending with a light 'ee' off-glide. The overall sound is smooth and drawn out.",
+      "tone": "low rising — voice starts low and rises slightly"
     }
   }
 }
