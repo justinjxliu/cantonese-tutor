@@ -126,7 +126,7 @@
   "gui6_tired": {
     "characters": "攰",
     "jyutping": "gui6",
-    "definition": "tired",
+    "definition": "tired / exhausted",
     "pronunciation": {
       "sound": "gway",
       "description": "Start with a soft 'g' sound, then glide into 'way' (similar to 'gway' with a relaxed ending). Keep it light and slightly falling in tone.",
@@ -405,6 +405,332 @@
       "sound": "maai",
       "description": "Start with an 'm' sound, then glide into a long 'aa' vowel like in 'father', ending with a light 'ee' off-glide. The overall sound is smooth and drawn out.",
       "tone": "low rising — voice starts low and rises slightly"
+    }
+  },
+  "ji1_jyun2_hospital": {
+    "characters": "醫院",
+    "jyutping": "ji1 jyun2",
+    "definition": "hospital",
+    "pronunciation": null
+  },
+  "ji1_medical": {
+    "characters": "醫",
+    "jyutping": "ji1",
+    "definition": "medical / doctor",
+    "pronunciation": {
+      "sound": "yee",
+      "description": "Start with a soft 'y' sound like in 'yes', then move into a long 'ee' vowel. Keep it light and steady without stress.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "jyun2_building": {
+    "characters": "院",
+    "jyutping": "jyun2",
+    "definition": "building / institution",
+    "pronunciation": {
+      "sound": "yoon",
+      "description": "Start with a soft 'y' glide, then move into a rounded 'oon' sound like 'moon', but shorter and lighter.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "hok6_haau6_school": {
+    "characters": "學校",
+    "jyutping": "hok6 haau6",
+    "definition": "school",
+    "pronunciation": null
+  },
+  "hok6_study": {
+    "characters": "學",
+    "jyutping": "hok6",
+    "definition": "study / learn",
+    "pronunciation": {
+      "sound": "hok",
+      "description": "Start with a light 'h' sound, followed by a short, clipped 'ok' vowel like in 'sock'. Keep it sharp and low.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "haau6_school": {
+    "characters": "校",
+    "jyutping": "haau6",
+    "definition": "school",
+    "pronunciation": {
+      "sound": "haow",
+      "description": "Start with a soft 'h' sound, then glide into an 'ow' sound like in 'cow', but shorter and more clipped.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "ce1_zaam6_station": {
+    "characters" : "車站",
+    "jyutping": "ce1 zaam6",
+    "definition": "station",
+    "pronunciation": null
+  },
+  "ce1_vehicle": {
+    "characters": "車",
+    "jyutping": "ce1",
+    "definition": "vehicle / car",
+    "pronunciation": {
+      "sound": "cheh",
+      "description": "Start with a soft 'ch' sound like in 'cheese', followed by a light 'eh' vowel. Keep it short and neutral.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "zaam6_stop": {
+    "characters": "站",
+    "jyutping": "zaam6",
+    "definition": "stop / station",
+    "pronunciation": {
+      "sound": "zaam",
+      "description": "Start with a soft 'z' sound, then a broad 'aam' vowel like 'calm' but with a sharper start.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "caan1_teng1_restaurant": {
+    "characters": "餐廳",
+    "jyutping": "caan1 teng1",
+    "definition": "restaurant",
+    "pronunciation": null
+  },
+  "caan1_meal": {
+    "characters": "餐",
+    "jyutping": "caan1",
+    "definition": "meal / food / dining",
+    "pronunciation": {
+      "sound": "tsaan",
+      "description": "Start with a sharp 'ts' sound, then move into a bright 'aan' vowel like 'pan' but longer and clearer.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "teng1_hall": {
+    "characters": "廳",
+    "jyutping": "teng1",
+    "definition": "hall / room",
+    "pronunciation": {
+      "sound": "teng",
+      "description": "Start with a light 't' sound, followed by a tense 'eng' vowel like in 'bang' but more fronted and clean.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "gok3_dak1_feel": {
+    "characters": "覺得",
+    "jyutping": "gok3 dak1",
+    "definition": "feel / think / perceive",
+    "pronunciation": null
+  },
+  "gok3_feel_component": {
+    "pronunciation": {
+      "sound": "gok",
+      "description": "Start with a hard 'g' sound, followed by a short 'ok' vowel like in 'sock'. Keep it clipped and low.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "dak1_feel_component": {
+    "pronunciation": {
+      "sound": "duck",
+      "description": "Start with a soft 'd' sound, followed by a short, closed 'uh' vowel like in 'duck'. Keep it light and neutral.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "gan2_zoeng1_nervous": {
+    "characters": "緊張",
+    "jyutping": "gan2 zoeng1",
+    "definition": "nervous / tense",
+    "pronunciation": null
+  },
+  "gan2_tension": {
+    "characters": "緊",
+    "jyutping": "gan2",
+    "definition": "tight / tense / anxious feeling",
+    "pronunciation": {
+      "sound": "gun",
+      "description": "Start with a hard 'g' sound, followed by a short 'un' vowel like in 'gun', but tighter and shorter. Keep the mouth slightly tense.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "zoeng1_stretched": {
+    "characters": "張",
+    "jyutping": "zoeng1",
+    "definition": "classifier for flat objects / part of the word 緊張",
+    "pronunciation": {
+      "sound": "jeung",
+      "description": "Start with a soft 'j' sound, then glide into an 'eung' vowel similar to 'young' but more rounded and tense. Keep it light but focused.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "laang5_zing6_calm": {
+    "characters": "冷靜",
+    "jyutping": "laang5 zing6",
+    "definition": "calm / composed",
+    "pronunciation": null
+  },
+  "laang5_cold": {
+    "characters": "冷",
+    "jyutping": "laang5",
+    "definition": "cold / cool / chilly",
+    "pronunciation": {
+      "sound": "laang",
+      "description": "Start with a soft 'l' sound, followed by a long, open 'aang' vowel similar to 'sang' but lower and colder in tone. Keep it flat and unsoftened.",
+      "tone": "low rising — voice starts low and rises slightly"
+    }
+  },
+  "zing6_quiet": {
+    "characters": "靜",
+    "jyutping": "zing6",
+    "definition": "quiet / still / calm state",
+    "pronunciation": {
+      "sound": "jing",
+      "description": "Start with a soft 'j' sound, then move into a short, closed 'ing' vowel like in 'sing' but lower and heavier. Keep it subdued and still.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "lyun6_confused": {
+    "characters": "亂",
+    "jyutping": "lyun6",
+    "definition": "confused / messy / chaotic",
+    "pronunciation": {
+      "sound": "lyun",
+      "description": "Start with a soft 'l' glide, then move into a rounded 'yuen' sound, like 'yoon' but more mixed and unstable. Let the sound feel slightly unsettled.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "caa4_tea": {
+    "characters": "茶",
+    "jyutping": "caa4",
+    "definition": "tea",
+    "pronunciation": {
+      "sound": "chah",
+      "description": "Start with a soft 'ch' sound like in 'chat', then open into a broad 'ah' vowel like in 'father'. Keep it relaxed and slightly drawn out.",
+      "tone": "low falling — voice starts low and falls slightly"
+    }
+  },
+  "jam1_ngok6_music": {
+    "characters": "音樂",
+    "jyutping": "jam1 ngok6",
+    "definition": "music",
+    "pronunciation": null
+  },
+  "jam1_sound": {
+    "characters": "音",
+    "jyutping": "jam1",
+    "definition": "sound / tone",
+    "pronunciation": {
+      "sound": "yum",
+      "description": "Start with a light 'y' glide, then move into 'um' like in 'yum'. Keep it short and smooth.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "ngok6_music": {
+    "characters": "樂",
+    "jyutping": "ngok6",
+    "definition": "music / enjoyment",
+    "pronunciation": {
+      "sound": "ngok",
+      "description": "Start with the nasal 'ng' sound like in 'sing', then a short 'ok' vowel like in 'sock'. Keep it clipped and low.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "sik6_mat6_food": {
+    "characters": "食物",
+    "jyutping": "sik6 mat6",
+    "definition": "food",
+    "pronunciation": null
+  },
+  "mat6_object": {
+    "characters": "物",
+    "jyutping": "mat6",
+    "definition": "object / thing",
+    "pronunciation": {
+      "sound": "mut",
+      "description": "Start with a soft 'm' sound, then a short 'ut' vowel like in 'put'. Keep it clipped and neutral.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "haang4_lou6_walking": {
+    "characters": "行路",
+    "jyutping": "haang4 lou6",
+    "definition": "walking / to walk",
+    "pronunciation": null
+  },
+  "haang4_walk": {
+    "characters": "行",
+    "jyutping": "haang4",
+    "definition": "walk",
+    "pronunciation": {
+      "sound": "hahng",
+      "description": "Start with a soft 'h' sound, then move into an 'ahng' vowel like in 'hang' but more open and nasal. Keep it smooth and flowing.",
+      "tone": "low falling — voice starts low and falls slightly"
+    }
+  },
+  "lou6_road": {
+    "characters": "路",
+    "jyutping": "lou6",
+    "definition": "road / path",
+    "pronunciation": {
+      "sound": "loh",
+      "description": "Start with a light 'l' sound, then glide into a rounded 'oh' vowel like in 'go'. Keep it smooth and relaxed.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "jam2_drink": {
+    "characters": "飲",
+    "jyutping": "jam2",
+    "definition": "drink",
+    "pronunciation": {
+      "sound": "yum",
+      "description": "Start with a light 'y' glide, then move into 'um' like in 'yum'. Keep it short and slightly rising.",
+      "tone": "mid rising — voice starts mid and rises slightly"
+    }
+  },
+  "duk6_syu1_study": {
+    "characters": "讀書",
+    "jyutping": "duk6 syu1",
+    "definition": "study",
+    "pronunciation": null
+  },
+  "duk6_read": {
+    "characters": "讀",
+    "jyutping": "duk6",
+    "definition": "read / study",
+    "pronunciation": {
+      "sound": "dook",
+      "description": "Start with a soft 'd' sound, then move into a short 'ook' vowel like in 'book', but tighter and shorter. End with a clipped stop.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "syu1_book": {
+    "characters": "書",
+    "jyutping": "syu1",
+    "definition": "book",
+    "pronunciation": {
+      "sound": "shoo",
+      "description": "Start with a soft 'sh' sound, then glide into 'oo' like in 'food', keeping it smooth and steady.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "jau1_sik1_rest": {
+    "characters": "休息",
+    "jyutping": "jau1 sik1",
+    "definition": "rest",
+    "pronunciation": null
+  },
+  "jau1_rest": {
+    "characters": "休",
+    "jyutping": "jau1",
+    "definition": "rest / pause",
+    "pronunciation": {
+      "sound": "yau",
+      "description": "Start with a light 'y' glide, then move into 'au' like in 'cow', but smoother and more controlled.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "sik1_stop": {
+    "characters": "息",
+    "jyutping": "sik1",
+    "definition": "stop / breath / rest",
+    "pronunciation": {
+      "sound": "sik",
+      "description": "Start with a clear 's' sound, then move into a short, tense 'ik' vowel, similar to 'seek' but much shorter and clipped. End with a quick, unreleased 'k' stop — don't let the sound fully release like in English.",
+      "tone": "high level — voice stays steady and high"
     }
   }
 }
