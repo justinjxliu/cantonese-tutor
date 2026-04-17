@@ -732,5 +732,67 @@
       "description": "Start with a clear 's' sound, then move into a short, tense 'ik' vowel, similar to 'seek' but much shorter and clipped. End with a quick, unreleased 'k' stop — don't let the sound fully release like in English.",
       "tone": "high level — voice stays steady and high"
     }
+  },
+  "gwo3_experienced": {
+    "characters": "過",
+    "jyutping": "gwo3",
+    "definition": "to experience / to go through / to have done or encountered something",
+    "pronunciation": {
+      "sound": "gwo",
+      "description": "Start with a soft 'g' sound, followed by a rounded 'wo' vowel like in 'go' but more closed and smoother. The sound should flow quickly without stress.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "zau6_lai4_almost": {
+    "characters": "就嚟",
+    "jyutping": "zau6 lai4",
+    "definition": "almost / about to happen very soon",
+    "pronunciation": null
+  },
+  "zau6_just": {
+    "characters": "就",
+    "jyutping": "zau6",
+    "definition": "just / then / indicating immediacy or sequence",
+    "pronunciation": {
+      "sound": "jau",
+      "description": "A quick, light 'jau' sound (like a soft 'jow' but less rounded). It is usually unstressed and spoken quickly, often blending into the next word in natural speech.",
+      "tone": "low level — voice stays steady and low"
+    }
+  },
+  "lai4_come": {
+    "characters": "嚟",
+    "jyutping": "lai4",
+    "definition": "come",
+    "pronunciation": {
+      "sound": "lai",
+      "description": "Start with a soft 'l' sound, then glide into a relaxed 'ai' as in 'eye'. Keep it short and natural, without over-articulating the final vowel.",
+      "tone": "low falling — voice starts low and falls slightly"
+    }
+  },
+  "seoi1_jiu3_need": {
+    "characters": "需要",
+    "jyutping": "seoi1 jiu3",
+    "definition": "need / require",
+    "pronunciation": null
+  },
+  "seoi1_need": {
+    "characters": "需",
+    "jyutping": "seoi1",
+    "definition": "need / require (formal component form)",
+    "pronunciation": {
+      "sound": "seoi",
+      "description": "Start with a soft 's' sound, then glide into 'eoi' (a rounded vowel similar to 'soy' but more compressed and less diphthong-heavy). Keep it short and precise.",
+      "tone": "high level — voice stays steady and high"
+    }
+  },
+  "jiu3_want": {
+    "characters": "要",
+    "jyutping": "jiu3",
+    "definition": "want / need / to require (depending on context)",
+    "pronunciation": {
+      "sound": "yiu",
+      "description": "Start with a soft 'y' glide, then move into 'iu' like 'yew' but shorter and more clipped. Keep it light and slightly falling in natural speech.",
+      "tone": "mid level — voice stays steady around mid pitch"
+    }
   }
 }

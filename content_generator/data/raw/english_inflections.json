@@ -1,0 +1,34 @@
+{
+"verbs": {
+    "fall_sick": {
+      "past_simple": "fell sick",
+      "past_participle": "fallen sick",
+			"future_simple": "fall sick"
+    },
+    "do": {
+			"past_simple": "did it",
+			"past_participle": "done it",
+			"future_simple": "do it"
+    },
+		"arrive": {
+			"past_simple": "arrived",
+			"past_participle": "arrived",
+			"future_simple": "arrive"
+		},
+		"eat": {
+			"past_simple": "ate it",
+			"past_participle": "eaten it",
+			"future_simple": "eat it"
+		},
+		"drink": {
+			"past_simple": "drank it",
+			"past_participle": "drunk it",
+			"future_simple": "drink it"
+		},
+		"buy": {
+			"past_simple": "bought it",
+			"past_participle": "bought it",
+			"future_simple": "buy it"
+		}
+  }
+}

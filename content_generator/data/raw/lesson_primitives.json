@@ -25,65 +25,50 @@
           "jyutping": "nei5 {jyutping} aa3"
         },
         {
-          "phrase": "I am {english} after exercising",
-          "characters": "我做完運動之後{cantonese}",
-          "jyutping": "ngo5 zou6 jyun4 wan6 dung6 zi1 hau6 {jyutping}"
-        },
-        {
           "phrase": "I'm not {english} this morning",
           "characters": "我今朝唔{cantonese}",
           "jyutping": "ngo5 gam1 ziu1 m4 {jyutping}"
         },
         {
-          "phrase": "Are you {english} after school",
-          "characters": "你返學之後{cantonese}呀",
-          "jyutping": "nei5 faan1 hok6 zi1 hau6 {jyutping} aa3"
+          "phrase": "Am I {english}",
+          "characters": "我係唔係{cantonese}",
+          "jyutping": "ngo5 hai6 m4 hai6 {jyutping}"
         }
       ]
     },
     "intensifier": {
-      "phrase": "I am {english}",
+      "phrase": "I am very {english}",
       "characters": "我好{cantonese}",
       "jyutping": "ngo5 hou2 {jyutping}",
       "vocabulary": ["ngo5_I", "hou2_very"],
       "pronunciation": ["ngo5_I", "hou2_very"],
       "mode": "append",
-      "grammar": "In Cantonese, adjectives often use '好'. So 'I am {english}' becomes 我好{cantonese}.",
+      "grammar": "In Cantonese, adjectives often use '好'. So 'I am very {english}' becomes 我好{cantonese}.",
       "practice": [
         {
-          "phrase": "I am {english} right now",
+          "phrase": "I am very {english} right now",
           "characters": "我而家好{cantonese}",
           "jyutping": "ngo5 ji4 gaa1 hou2 {jyutping}"
         },
         {
-          "phrase": "You are {english}",
-          "characters": "你好{cantonese}呀",
-          "jyutping": "nei5 hou2 {jyutping} aa3"
+          "phrase": "You are very {english}",
+          "characters": "你好{cantonese}",
+          "jyutping": "nei5 hou2 {jyutping}"
         },
         {
-          "phrase": "She is {english}",
+          "phrase": "She is very {english}",
           "characters": "佢好{cantonese}",
           "jyutping": "keoi5 hou2 {jyutping}"
         },
         {
-          "phrase": "I am so {english} after finishing work today",
-          "characters": "我今日放工之後好{cantonese}",
-          "jyutping": "ngo5 gam1 jat6 fong3 gung1 zi1 hau6 hou2 {jyutping}"
+          "phrase": "We are very {english}",
+          "characters": "我哋好{cantonese}",
+          "jyutping": "ngo5 dei6 hou2 {jyutping}"
         },
         {
-          "phrase": "Don't bother me, I'm {english}",
-          "characters": "唔好煩我，我好{cantonese}",
-          "jyutping": "m4 hou2 faan4 ngo5 ngo5 hou2 {jyutping}"
-        },   
-        {
-          "phrase": "Do you feel {english} after studying",
-          "characters": "你讀書讀到{cantonese}呀",
-          "jyutping": "nei5 duk6 syu1 duk6 dou3 {jyutping} aa3"
-        },
-        {
-          "phrase": "Sorry, I am {english}",
-          "characters": "唔好意思，我好{cantonese}",
-          "jyutping": "m4 hou2 ji3 si1 ngo5 hou2 {jyutping}"
+          "phrase": "They are very {english}",
+          "characters": "佢哋好{cantonese}",
+          "jyutping": "keoi5 dei6 hou2 {jyutping}"
         }
       ]
     },
@@ -113,8 +98,70 @@
         }
       ]
     },
+    "experienced": {
+      "phrase": "I have {english}",
+      "characters": "我{cantonese}過",
+      "jyutping": "ngo5 {jyutping} gwo3",
+      "vocabulary": ["ngo5_I", "VERB", "gwo3_experienced"],
+      "pronunciation": ["ngo5_I", "VERB", "gwo3_experienced"],
+      "mode": "replace",
+      "grammar": "Cantonese uses '過' to mark that an action or state has been experienced at least once. It does not express tense or completion, but general experience (similar to 'ever' in English).",
+      "practice": [
+        {
+          "phrase": "I have {english} at least once",
+          "characters": "我最少{cantonese}過一次",
+          "jyutping": "ngo5 zeoi3 siu2 {jyutping} gwo3 jat1 ci3"
+        },
+        {
+          "phrase": "I have never {english}",
+          "characters": "我未{cantonese}過",
+          "jyutping": "ngo5 mei6 {jyutping} gwo3"
+        },
+        {
+          "phrase": "Have you ever {english}?",
+          "characters": "你有冇{cantonese}過？",
+          "jyutping": "nei5 jau5 mou5 {jyutping} gwo3"
+        },
+        {
+          "phrase": "I have {english} many times before",
+          "characters": "我試過好多次{cantonese}",
+          "jyutping": "ngo5 si3 gwo3 hou2 do1 ci3 {jyutping}"
+        }
+      ]
+    },
+    "planned": {
+      "phrase": "I will {english}",
+      "characters": "我會{cantonese}",
+      "jyutping": "ngo5 wui5 {jyutping}",
+      "vocabulary": ["ngo5_I", "wui5_will"],
+      "pronunciation": ["ngo5_I", "wui5_will"],
+      "mode": "append",
+      "grammar": "Cantonese uses '會' to indicate future intention or expectation. It expresses that an action will likely happen, without needing a separate tense system.",
+      "practice": [
+        {
+          "phrase": "I will {english} tomorrow",
+          "characters": "我聽日會{cantonese}",
+          "jyutping": "ngo5 ting1 jat6 wui5 {jyutping}"
+        },
+        {
+          "phrase": "I think I will {english}",
+          "characters": "我覺得我會{cantonese}",
+          "jyutping": "ngo5 gok3 dak1 ngo5 wui5 {jyutping}"
+        },
+        {
+          "phrase": "I will {english} later",
+          "characters": "我遲啲會{cantonese}",
+          "jyutping": "ngo5 ci4 di1 wui5 {jyutping}"
+        },
+        {
+          "phrase": "I will probably {english}",
+          "characters": "我可能會{cantonese}",
+          "jyutping": "ngo5 ho2 nang4 wui5 {jyutping}"
+        }
+      ]
+    },
     "want": {
-      "phrase": "I want {english}",
+      "phrase": "I want to {english}",
       "characters": "我想{cantonese}",
       "jyutping": "ngo5 soeng2 {jyutping}",
       "vocabulary": ["ngo5_I", "soeng2_want"],
@@ -123,24 +170,55 @@
       "grammar": "Cantonese uses '想' (soeng2) to express 'want to'. It is placed directly before a verb, without needing 'to' like in English. So 'I want {english}' becomes 我想{cantonese}.",
       "practice": [
         {
-          "phrase": "I really want {english} today",
+          "phrase": "I really want to {english} today",
           "characters": "我今日真係想{cantonese}",
           "jyutping": "ngo5 gam1 jat6 zan1 hai6 soeng2 {jyutping}"
         },
         {
-          "phrase": "I don't want {english} because it's too cold",
+          "phrase": "I don't want to {english} because it's too cold",
           "characters": "太凍，我唔想{cantonese}",
           "jyutping": "taai3 dung3 ngo5 m4 soeng2 {jyutping}"
         },
         {
-          "phrase": "I still don't want {english}",
+          "phrase": "I still don't want to {english}",
           "characters": "我都唔想{cantonese}",
           "jyutping": "ngo5 dou1 m4 soeng2 {jyutping}"
         },
         {
-          "phrase": "I want {english} now",
+          "phrase": "I want to {english} now",
           "characters": "我而家想{cantonese}",
           "jyutping": "ngo5 ji4 gaa1 soeng2 {jyutping}"
+        }
+      ]
+    },
+    "imminent": {
+      "phrase": "I am about to {english}",
+      "characters": "我就嚟{cantonese}",
+      "jyutping": "ngo5 zau6 lai4 {jyutping}",
+      "vocabulary": ["ngo5_I", "zau6_lai4_almost"],
+      "pronunciation": ["ngo5_I", "zau6_just", "lai4_come"],
+      "mode": "append",
+      "grammar": "Cantonese uses '就嚟' (zau6 lai4) to express that something is about to happen very soon. It is placed before the verb phrase to indicate imminent action.",
+      "practice": [
+        {
+          "phrase": "I am about to {english} now",
+          "characters": "我而家就嚟{cantonese}",
+          "jyutping": "ngo5 ji4 gaa1 zau6 lai4 {jyutping}"
+        },
+        {
+          "phrase": "I am about to {english}, wait a moment",
+          "characters": "我就嚟{cantonese}，等陣",
+          "jyutping": "ngo5 zau6 lai4 {jyutping}, dang2 zan6"
+        },
+        {
+          "phrase": "I am about to {english} so I can't talk",
+          "characters": "我就嚟{cantonese}，所以唔可以講嘢",
+          "jyutping": "ngo5 zau6 lai4 {jyutping}, so2 ji5 m4 ho2 ji5 gong2 je5"
+        },
+        {
+          "phrase": "I am about to {english}, don't disturb me",
+          "characters": "我就嚟{cantonese}，唔好煩我",
+          "jyutping": "ngo5 zau6 lai4 {jyutping}, m4 hou2 faan4 ngo5"
         }
       ]
     },
@@ -197,7 +275,7 @@
       ]
     },
     "can": {
-      "phrase": "I can {english}",
+      "phrase": "I can {english} it",
       "characters": "我{cantonese}到",
       "jyutping": "ngo5 {jyutping} dou2",
       "vocabulary": ["ngo5_I", "VERB", "dou2_can"],
@@ -206,17 +284,17 @@
       "grammar": "Cantonese expresses ability using verb + 到. It means being able to successfully do something.",
       "practice": [
         {
-          "phrase": "I think I can {english}",
+          "phrase": "I think I can {english} it",
           "characters": "我覺得我{cantonese}得到",
           "jyutping": "ngo5 gok3 dak1 ngo5 {jyutping} dak1 dou2"
         },
         {
-          "phrase": "I cannot {english}",
+          "phrase": "I cannot {english} it",
           "characters": "我{cantonese}唔到",
           "jyutping": "ngo5 {jyutping} m4 dou2"
         },
         {
-          "phrase": "Can you {english} by today",
+          "phrase": "Can you {english} it by today",
           "characters": "你今日{cantonese}到呀",
           "jyutping": "nei5 gam1 jat6 {jyutping} dou2 aa3"
         }
@@ -225,305 +303,341 @@
     "feeling": {
       "phrase": "I feel {english}",
       "characters": "我覺得好{cantonese}",
-      "jyutping": "ngo5 gok3 dak1 hou2 {jyutping}",
-      "vocabulary": ["ngo5_I", "gok3_dak1_feel", "hou2_very"],
-      "pronunciation": ["ngo5_I", "gok3_feel_component", "dak1_feel_component", "hou2_very"],
+      "jyutping": "ngo5 gok3 dak1 {jyutping}",
+      "vocabulary": ["ngo5_I", "gok3_dak1_feel"],
+      "pronunciation": ["ngo5_I", "gok3_feel_component", "dak1_feel_component"],
       "mode": "append",
-      "grammar": "Cantonese uses '覺得' to express how someone feels or perceives a state. It naturally combines with adjectives using '好'.",
+      "grammar": "Cantonese uses '覺得' to express how someone feels or perceives a state.",
       "practice": [
         {
           "phrase": "I feel {english} today",
-          "characters": "我今日覺得好{cantonese}",
-          "jyutping": "ngo5 gam1 jat6 gok3 dak1 hou2 {jyutping}"
+          "characters": "我今日覺得{cantonese}",
+          "jyutping": "ngo5 gam1 jat6 gok3 dak1 {jyutping}"
         },
         {
-          "phrase": "I feel very {english}",
-          "characters": "我覺得好{cantonese}",
-          "jyutping": "ngo5 gok3 dak1 hou2 {jyutping}"
+          "phrase": "I do not feel {english}",
+          "characters": "我唔覺得{cantonese}",
+          "jyutping": "ngo5 m4 gok3 dak1 {jyutping}"
         },
         {
           "phrase": "Why do I feel {english}",
-          "characters": "點解我覺得好{cantonese}",
-          "jyutping": "dim2 gaai2 ngo5 gok3 dak1 hou2 {jyutping}"
+          "characters": "點解我覺得{cantonese}",
+          "jyutping": "dim2 gaai2 ngo5 gok3 dak1 {jyutping}"
+        },
+        {
+          "phrase": "I feel more {english} than before",
+          "characters": "我覺得比之前更{cantonese}",
+          "jyutping": "ngo5 gok3 dak1 bei2 zi1 cin4 gang3 {jyutping}"
+        },
+        {
+          "phrase": "I think I feel {english}",
+          "characters": "我覺得自己有啲{cantonese}",
+          "jyutping": "ngo5 gok3 dak1 zi6 gei2 jau5 di1 {jyutping}"
+        }
+      ]
+    },
+    "need": {
+      "phrase": "I need {english}",
+      "characters": "我需要{cantonese}",
+      "jyutping": "ngo5 seoi1 jiu3 {jyutping}",
+      "vocabulary": ["ngo5_I", "seoi1_jiu3_need"],
+      "pronunciation": ["ngo5_I", "seoi1_need", "jiu3_want"],
+      "mode": "append",
+      "grammar": "Cantonese uses '需要' (seoi1 jiu3) to express need or necessity. It is placed before nouns or noun phrases to indicate something required.",
+      "practice": [
+        {
+          "phrase": "I really need {english}",
+          "characters": "我好需要{cantonese}",
+          "jyutping": "ngo5 hou2 seoi1 jiu3 {jyutping}"
+        },
+        {
+          "phrase": "I need {english} now",
+          "characters": "我而家需要{cantonese}",
+          "jyutping": "ngo5 ji4 gaa1 seoi1 jiu3 {jyutping}"
+        },
+        {
+          "phrase": "I need some {english}",
+          "characters": "我需要啲{cantonese}",
+          "jyutping": "ngo5 seoi1 jiu3 di1 {jyutping}"
         }
       ]
     }
   },
-  "fillers": {
-    "state": [
-      {
-        "english": "hungry",
-        "cantonese": "肚餓",
-        "jyutping": "tou5 ngo6",
-        "vocabulary": ["tou5_ngo6_hungry"],
-        "pronunciation": ["tou5_stomach", "ngo6_hungry"]
-      },
-      {
-        "english": "thirsty",
-        "cantonese": "口渴",
-        "jyutping": "hau2 hot3",
-        "vocabulary": ["hau2_hot3_thirsty"],
-        "pronunciation": ["hau2_mouth", "hot3_thirsty"]
-      },
-      {
-        "english": "sleepy",
-        "cantonese": "眼瞓",
-        "jyutping": "ngaan5 fan3",
-        "vocabulary": ["ngaan5_fan3_sleepy"],
-        "pronunciation": ["ngaan5_eye", "fan3_sleep"]
-      },
-      {
-        "english": "sad",
-        "cantonese": "唔開心",
-        "jyutping": "m4 hoi1 sam1",
-        "vocabulary": ["m4_not", "hoi1_sam1_happy"],
-        "pronunciation": ["m4_not", "hoi1_open", "sam1_heart"]
-      },
-      {
-        "english": "cold",
-        "cantonese": "凍",
-        "jyutping": "dung3",
-        "vocabulary": ["dung3_cold"],
-        "pronunciation": ["dung3_cold"]
-      }
-    ],
-    "intensifier": [
-      {
-        "english": "happy",
-        "cantonese": "開心",
-        "jyutping": "hoi1 sam1",
-        "vocabulary": ["hoi1_sam1_happy"],
-        "pronunciation": ["hoi1_open", "sam1_heart"]
-      },
-      {
-        "english": "tired",
-        "cantonese": "攰",
-        "jyutping": "gui6",
-        "vocabulary": ["gui6_tired"],
-        "pronunciation": ["gui6_tired"]
-      },
-      {
-        "english": "busy",
-        "cantonese": "忙",
-        "jyutping": "mong4",
-        "vocabulary": ["mong4_busy"],
-        "pronunciation": ["mong4_busy"]
-      },
-      {
-        "english": "angry",
-        "cantonese": "嬲",
-        "jyutping": "nau1",
-        "vocabulary": ["nau1_angry"],
-        "pronunciation": ["nau1_angry"]
-      },
-      {
-        "english": "scared",
-        "cantonese": "驚",
-        "jyutping": "geng1",
-        "vocabulary": ["geng1_scared"],
-        "pronunciation": ["geng1_scared"]
-      }
-    ],
-    "happened": [
-      {
-        "english": "fell sick",
-        "cantonese": "病",
-        "jyutping": "beng6",
-        "vocabulary": ["beng6_sick"],
-        "pronunciation": ["beng6_sick"]
-      },
-      {
-        "english": "did it",
-        "cantonese": "做",
-        "jyutping": "zou6",
-        "vocabulary": ["zou6_do"],
-        "pronunciation": ["zou6_do"]
-      },
-      {
-        "english": "arrived",
-        "cantonese": "到",
-        "jyutping": "dou3",
-        "vocabulary": ["dou3_arrive"],
-        "pronunciation": ["dou3_arrive"]
-      },
-      {
-        "english": "ate it",
-        "cantonese": "食",
-        "jyutping": "sik6",
-        "vocabulary": ["sik6_eat"],
-        "pronunciation": ["sik6_eat"]
-      },
-      {
-        "english": "bought it",
-        "cantonese": "買",
-        "jyutping": "maai5",
-        "vocabulary": ["maai5_buy"],
-        "pronunciation": ["maai5_buy"]
-      }
-    ],
-    "want": [
-      {
-        "english": "to go out",
-        "cantonese": "出街",
-        "jyutping": "ceot1 gaai1",
-        "vocabulary": ["ceot1_gaai1_go_out"],
-        "pronunciation": ["ceot1_go_out", "gaai1_street"]
-      },
-      {
-        "english": "to eat",
+  "fillers": [
+    {
+      "english": "hungry",
+      "cantonese": "肚餓",
+      "jyutping": "tou5 ngo6",
+      "vocabulary": ["tou5_ngo6_hungry"],
+      "pronunciation": ["tou5_stomach", "ngo6_hungry"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "thirsty",
+      "cantonese": "口渴",
+      "jyutping": "hau2 hot3",
+      "vocabulary": ["hau2_hot3_thirsty"],
+      "pronunciation": ["hau2_mouth", "hot3_thirsty"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "sleepy",
+      "cantonese": "眼瞓",
+      "jyutping": "ngaan5 fan3",
+      "vocabulary": ["ngaan5_fan3_sleepy"],
+      "pronunciation": ["ngaan5_eye", "fan3_sleep"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "sad",
+      "cantonese": "唔開心",
+      "jyutping": "m4 hoi1 sam1",
+      "vocabulary": ["m4_not", "hoi1_sam1_happy"],
+      "pronunciation": ["m4_not", "hoi1_open", "sam1_heart"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "cold",
+      "cantonese": "凍",
+      "jyutping": "dung3",
+      "vocabulary": ["dung3_cold"],
+      "pronunciation": ["dung3_cold"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "happy",
+      "cantonese": "開心",
+      "jyutping": "hoi1 sam1",
+      "vocabulary": ["hoi1_sam1_happy"],
+      "pronunciation": ["hoi1_open", "sam1_heart"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "tired",
+      "cantonese": "攰",
+      "jyutping": "gui6",
+      "vocabulary": ["gui6_tired"],
+      "pronunciation": ["gui6_tired"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "busy",
+      "cantonese": "忙",
+      "jyutping": "mong4",
+      "vocabulary": ["mong4_busy"],
+      "pronunciation": ["mong4_busy"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "angry",
+      "cantonese": "嬲",
+      "jyutping": "nau1",
+      "vocabulary": ["nau1_angry"],
+      "pronunciation": ["nau1_angry"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "scared",
+      "cantonese": "驚",
+      "jyutping": "geng1",
+      "vocabulary": ["geng1_scared"],
+      "pronunciation": ["geng1_scared"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "nervous",
+      "cantonese": "緊張",
+      "jyutping": "gan2 zoeng1",
+      "vocabulary": ["gan2_zoeng1_nervous"],
+      "pronunciation": ["gan2_tight", "zoeng1_stretched"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "calm",
+      "cantonese": "冷靜",
+      "jyutping": "laang5 zing6",
+      "vocabulary": ["laang5_zing6_calm"],
+      "pronunciation": ["laang5_cold", "zing6_quiet"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "confused",
+      "cantonese": "亂",
+      "jyutping": "lyun6",
+      "vocabulary": ["lyun6_confused"],
+      "pronunciation": ["lyun6_confused"],
+      "tags": ["state", "intensifier", "feeling"]
+    },
+    {
+      "english": "fall sick",
+      "cantonese": "病",
+      "jyutping": "beng6",
+      "vocabulary": ["beng6_sick"],
+      "pronunciation": ["beng6_sick"],
+      "tags": ["happened", "experienced", "planned"]
+    },
+    {
+      "english": "do",
+      "cantonese": "做",
+      "jyutping": "zou6",
+      "vocabulary": ["zou6_do"],
+      "pronunciation": ["zou6_do"],
+      "tags": ["happened", "experienced", "planned", "can"]
+    },
+    {
+      "english": "arrive",
+      "cantonese": "到",
+      "jyutping": "dou3",
+      "vocabulary": ["dou3_arrive"],
+      "pronunciation": ["dou3_arrive"],
+      "tags": ["happened", "experienced", "planned"]
+    },
+    {
+      "english": "eat",
+      "cantonese": "食",
+      "jyutping": "sik6",
+      "vocabulary": ["sik6_eat"],
+      "pronunciation": ["sik6_eat"],
+      "tags": ["happened", "experienced", "planned", "want", "imminent", "can"],
+      "want_default": {
         "cantonese": "食飯",
-        "jyutping": "sik6 faan6",
-        "vocabulary": ["sik6_eat", "faan6_meal"],
-        "pronunciation": ["sik6_eat", "faan6_meal"]
+        "jyutping": "sik6 faan6"
       },
-      {
-        "english": "to drink coffee",
-        "cantonese": "飲咖啡",
-        "jyutping": "jam2 gaa3 fe1",
-        "vocabulary": ["jam2_drink", "gaa3_fe1_coffee"],
-        "pronunciation": ["jam2_drink", "gaa3_coffee_component", "fe1_coffee_component"]
-      },
-       {
-        "english": "to study",
-        "cantonese": "讀書",
-        "jyutping": "duk6 syu1",
-        "vocabulary": ["duk6_syu1_study"],
-        "pronunciation": ["duk6_read", "syu1_book"]
-      },
-      {
-        "english": "to walk",
-        "cantonese": "行路",
-        "jyutping": "haang4 lou6",
-        "vocabulary": ["haang4_lou6_walking"],
-        "pronunciation": ["haang4_walk", "lou6_road"]
-      },
-      {
-        "english": "to rest",
-        "cantonese": "休息",
-        "jyutping": "jau1 sik1",
-        "vocabulary": ["jau1_sik1_rest"],
-        "pronunciation": ["jau1_rest", "sik1_stop"]
+      "imminent_default": {
+        "cantonese": "食飯",
+        "jyutping": "sik6 faan6"
       }
-    ],
-    "like": [
+    },
+    {
+      "english": "drink",
+      "cantonese": "飲",
+      "jyutping": "jam2",
+      "vocabulary": ["jam2_drink"],
+      "pronunciation": ["jam2_drink"],
+      "tags": ["happened", "experienced", "planned", "can"]
+    },
+    {
+      "english": "buy",
+      "cantonese": "買",
+      "jyutping": "maai5",
+      "vocabulary": ["maai5_buy"],
+      "pronunciation": ["maai5_buy"],
+      "tags": ["happened", "experienced", "planned", "can"]
+    },
+    {
+      "english": "go out",
+      "cantonese": "出街",
+      "jyutping": "ceot1 gaai1",
+      "vocabulary": ["ceot1_gaai1_go_out"],
+      "pronunciation": ["ceot1_go_out", "gaai1_street"],
+      "tags": ["want", "imminent"]
+    },
+    {
+      "english": "drink coffee",
+      "cantonese": "飲咖啡",
+      "jyutping": "jam2 gaa3 fe1",
+      "vocabulary": ["jam2_drink", "gaa3_fe1_coffee"],
+      "pronunciation": ["jam2_drink", "gaa3_coffee_component", "fe1_coffee_component"],
+      "tags": ["want", "imminent"]
+    },
       {
-        "english": "coffee",
-        "cantonese": "咖啡",
-        "jyutping": "gaa3 fe1",
-        "vocabulary": ["gaa3_fe1_coffee"],
-        "pronunciation": ["gaa3_coffee_component", "fe1_coffee_component"]
-      },
-      {
-        "english": "tea",
-        "cantonese": "茶",
-        "jyutping": "caa4",
-        "vocabulary": ["caa4_tea"],
-        "pronunciation": ["caa4_tea"]
-      },
-      {
-        "english": "music",
-        "cantonese": "音樂",
-        "jyutping": "jam1 ngok6",
-        "vocabulary": ["jam1_ngok6_music"],
-        "pronunciation": ["jam1_sound", "ngok6_music"]
-      },
-      {
-        "english": "food",
-        "cantonese": "食物",
-        "jyutping": "sik6 mat6",
-        "vocabulary": ["sik6_mat6_food"],
-        "pronunciation": ["sik6_eat", "mat6_object"]
-      },
-      {
-        "english": "walking",
-        "cantonese": "行路",
-        "jyutping": "haang4 lou6",
-        "vocabulary": ["haang4_lou6_walking"],
-        "pronunciation": ["haang4_walk", "lou6_road"]
+      "english": "study",
+      "cantonese": "讀書",
+      "jyutping": "duk6 syu1",
+      "vocabulary": ["duk6_syu1_study"],
+      "pronunciation": ["duk6_read", "syu1_book"],
+      "tags": ["want", "imminent"]
+    },
+    {
+      "english": "walk",
+      "cantonese": "行路",
+      "jyutping": "haang4 lou6",
+      "vocabulary": ["haang4_lou6_walking"],
+      "pronunciation": ["haang4_walk", "lou6_road"],
+      "tags": ["want", "imminent", "like"],
+      "like_default": {
+        "english": "walking"
       }
-    ],
-    "where": [
-      {
-        "english": "the toilet",
-        "cantonese": "廁所",
-        "jyutping": "ci3 so2",
-        "vocabulary": ["ci3_so2_toilet"],
-        "pronunciation": ["ci3_toilet", "so2_place"]
-      },
-      {
-        "english": "the hospital",
-        "cantonese": "醫院",
-        "jyutping": "ji1 jyun2",
-        "vocabulary": ["ji1_jyun2_hospital"],
-        "pronunciation": ["ji1_medical", "jyun2_building"]
-      },
-      {
-        "english": "the school",
-        "cantonese": "學校",
-        "jyutping": "hok6 haau6",
-        "vocabulary": ["hok6_haau6_school"],
-        "pronunciation": ["hok6_study", "haau6_school"]
-      },
-      {
-        "english": "the station",
-        "cantonese": "車站",
-        "jyutping": "ce1 zaam6",
-        "vocabulary": ["ce1_zaam6_station"],
-        "pronunciation": ["ce1_vehicle", "zaam6_stop"]
-      },
-      {
-        "english": "the restaurant",
-        "cantonese": "餐廳",
-        "jyutping": "caan1 teng1",
-        "vocabulary": ["caan1_teng1_restaurant"],
-        "pronunciation": ["caan1_meal", "teng1_hall"]
-      }
-    ],
-    "can": [
-      {
-        "english": "do it",
-        "cantonese": "做",
-        "jyutping": "dou2",
-        "vocabulary": ["zou6_do"],
-        "pronunciation": ["zou6_do"]
-      }
-    ],
-    "feeling": [
-      {
-        "english": "nervous",
-        "cantonese": "緊張",
-        "jyutping": "gan2 zoeng1",
-        "vocabulary": ["gan2_zoeng1_nervous"],
-        "pronunciation": ["gan2_tight", "zoeng1_stretched"]
-      },
-      {
-        "english": "tired",
-        "cantonese": "攰",
-        "jyutping": "gui6",
-        "vocabulary": ["gui6_tired"],
-        "pronunciation": ["gui6_tired"]
-      },
-      {
-        "english": "calm",
-        "cantonese": "冷靜",
-        "jyutping": "laang5 zing6",
-        "vocabulary": ["laang5_zing6_calm"],
-        "pronunciation": ["laang5_cold", "zing6_quiet"]
-      },
-      {
-        "english": "confused",
-        "cantonese": "亂",
-        "jyutping": "lyun6",
-        "vocabulary": ["lyun6_confused"],
-        "pronunciation": ["lyun6_confused"]
-      },
-      {
-        "english": "upset",
-        "cantonese": "唔開心",
-        "jyutping": "m4 hoi1 sam1",
-        "vocabulary": ["m4_not", "hoi1_sam1_happy"],
-        "pronunciation": ["m4_not", "hoi1_open", "sam1_heart"]
-      }
-    ]
-  }
+    },
+    {
+      "english": "rest",
+      "cantonese": "休息",
+      "jyutping": "jau1 sik1",
+      "vocabulary": ["jau1_sik1_rest"],
+      "pronunciation": ["jau1_rest", "sik1_stop"],
+      "tags": ["want", "imminent"]
+    },
+    {
+      "english": "coffee",
+      "cantonese": "咖啡",
+      "jyutping": "gaa3 fe1",
+      "vocabulary": ["gaa3_fe1_coffee"],
+      "pronunciation": ["gaa3_coffee_component", "fe1_coffee_component"],
+      "tags": ["like"]
+    },
+    {
+      "english": "tea",
+      "cantonese": "茶",
+      "jyutping": "caa4",
+      "vocabulary": ["caa4_tea"],
+      "pronunciation": ["caa4_tea"],
+      "tags": ["like"]
+    },
+    {
+      "english": "music",
+      "cantonese": "音樂",
+      "jyutping": "jam1 ngok6",
+      "vocabulary": ["jam1_ngok6_music"],
+      "pronunciation": ["jam1_sound", "ngok6_music"],
+      "tags": ["like"]
+    },
+    {
+      "english": "food",
+      "cantonese": "食物",
+      "jyutping": "sik6 mat6",
+      "vocabulary": ["sik6_mat6_food"],
+      "pronunciation": ["sik6_eat", "mat6_object"],
+      "tags": ["like", "need"]
+    },
+    {
+      "english": "the toilet",
+      "cantonese": "廁所",
+      "jyutping": "ci3 so2",
+      "vocabulary": ["ci3_so2_toilet"],
+      "pronunciation": ["ci3_toilet", "so2_place"],
+      "tags": ["where", "need"]
+    },
+    {
+      "english": "the hospital",
+      "cantonese": "醫院",
+      "jyutping": "ji1 jyun2",
+      "vocabulary": ["ji1_jyun2_hospital"],
+      "pronunciation": ["ji1_medical", "jyun2_building"],
+      "tags": ["where"]
+    },
+    {
+      "english": "the school",
+      "cantonese": "學校",
+      "jyutping": "hok6 haau6",
+      "vocabulary": ["hok6_haau6_school"],
+      "pronunciation": ["hok6_study", "haau6_school"],
+      "tags": ["where"]
+    },
+    {
+      "english": "the station",
+      "cantonese": "車站",
+      "jyutping": "ce1 zaam6",
+      "vocabulary": ["ce1_zaam6_station"],
+      "pronunciation": ["ce1_vehicle", "zaam6_stop"],
+      "tags": ["where"]
+    },
+    {
+      "english": "the restaurant",
+      "cantonese": "餐廳",
+      "jyutping": "caan1 teng1",
+      "vocabulary": ["caan1_teng1_restaurant"],
+      "pronunciation": ["caan1_meal", "teng1_hall"],
+      "tags": ["where"]
+    }
+  ]
 }
