@@ -30,9 +30,9 @@
           "jyutping": "ngo5 gam1 ziu1 m4 {jyutping}"
         },
         {
-          "phrase": "Am I {english}",
-          "characters": "我係唔係{cantonese}",
-          "jyutping": "ngo5 hai6 m4 hai6 {jyutping}"
+          "phrase": "Are they {english}",
+          "characters": "佢哋{cantonese}咩",
+          "jyutping": "keoi5 dei6 {jyutping} me1"
         }
       ]
     },
@@ -118,7 +118,7 @@
           "jyutping": "ngo5 mei6 {jyutping} gwo3"
         },
         {
-          "phrase": "Have you ever {english}?",
+          "phrase": "Have you ever {english}",
           "characters": "你有冇{cantonese}過？",
           "jyutping": "nei5 jau5 mou5 {jyutping} gwo3"
         },
@@ -330,9 +330,9 @@
           "jyutping": "ngo5 gok3 dak1 bei2 zi1 cin4 gang3 {jyutping}"
         },
         {
-          "phrase": "I think I feel {english}",
-          "characters": "我覺得自己有啲{cantonese}",
-          "jyutping": "ngo5 gok3 dak1 zi6 gei2 jau5 di1 {jyutping}"
+          "phrase": "I think I feel a bit {english}",
+          "characters": "我覺得有啲{cantonese}",
+          "jyutping": "ngo5 gok3 dak1 jau5 di1 {jyutping}"
         }
       ]
     },
@@ -356,9 +356,9 @@
           "jyutping": "ngo5 ji4 gaa1 seoi1 jiu3 {jyutping}"
         },
         {
-          "phrase": "I need some {english}",
-          "characters": "我需要啲{cantonese}",
-          "jyutping": "ngo5 seoi1 jiu3 di1 {jyutping}"
+          "phrase": "I think I need {english}",
+          "characters": "我覺得我需要{cantonese}",
+          "jyutping": "ngo5 gok3 dak1 ngo5 seoi1 jiu3 {jyutping}"
         }
       ]
     }
@@ -593,10 +593,10 @@
     },
     {
       "english": "food",
-      "cantonese": "食物",
-      "jyutping": "sik6 mat6",
-      "vocabulary": ["sik6_mat6_food"],
-      "pronunciation": ["sik6_eat", "mat6_object"],
+      "cantonese": "食嘢",
+      "jyutping": "sik6 je5",
+      "vocabulary": ["sik6_je5_food"],
+      "pronunciation": ["sik6_eat", "je5_object"],
       "tags": ["like", "need"]
     },
     {

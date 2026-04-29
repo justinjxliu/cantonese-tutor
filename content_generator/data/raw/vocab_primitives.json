@@ -46,8 +46,8 @@
     "jyutping": "hau2",
     "definition": "mouth",
     "pronunciation": {
-      "sound": "how",
-      "description": "Start with an aspirated 'h' sound, then add 'ow' like in 'how' or 'cow', keep lips relaxed",
+      "sound": "hau",
+      "description": "Start with a light 'h' sound, then move into a short 'au' vowel. Keep it short, tight, and not exaggerated.",
       "tone": "mid rising — voice starts mid and rises slightly"
     }
   },
@@ -306,8 +306,8 @@
     "jyutping": "hai2",
     "definition": "to be at / located at",
     "pronunciation": {
-      "sound": "high",
-      "description": "Start with an 'h' sound, then move into a long 'ai' vowel like in 'high'. Keep the sound smooth and open.",
+      "sound": "hai",
+      "description": "Start with an 'h' sound, then move into a short 'ai' vowel (similar to English 'high' but without the final glide). Keep the sound smooth and open.",
       "tone": "mid rising — voice starts mid and rises slightly"
     }
   },
@@ -537,7 +537,7 @@
     "definition": "nervous / tense",
     "pronunciation": null
   },
-  "gan2_tension": {
+  "gan2_tight": {
     "characters": "緊",
     "jyutping": "gan2",
     "definition": "tight / tense / anxious feeling",
@@ -614,8 +614,8 @@
     "jyutping": "jam1",
     "definition": "sound / tone",
     "pronunciation": {
-      "sound": "yum",
-      "description": "Start with a light 'y' glide, then move into 'um' like in 'yum'. Keep it short and smooth.",
+      "sound": "yam",
+      "description": "Start with a soft 'y' glide, then move into 'am' like 'yum' but flatter and more nasal. Keep it short and controlled.",
       "tone": "high level — voice stays steady and high"
     }
   },
@@ -629,11 +629,21 @@
       "tone": "low level — voice stays steady and low"
     }
   },
-  "sik6_mat6_food": {
-    "characters": "食物",
-    "jyutping": "sik6 mat6",
+  "sik6_je5_food": {
+    "characters": "食嘢",
+    "jyutping": "sik6 je5",
     "definition": "food",
     "pronunciation": null
+  },
+  "je5_object": {
+    "characters": "嘢",
+    "jyutping": "je5",
+    "definition": "thing / stuff (general colloquial noun, highly flexible)",
+    "pronunciation": {
+      "sound": "yeh",
+      "description": "Start with a soft 'y' glide, then move into a short, relaxed 'eh' vowel like 'yeah' but flatter and shorter. Keep it light and casual.",
+      "tone": "low rising — voice starts low and rises slightly"
+    }
   },
   "mat6_object": {
     "characters": "物",
@@ -793,6 +803,16 @@
       "sound": "yiu",
       "description": "Start with a soft 'y' glide, then move into 'iu' like 'yew' but shorter and more clipped. Keep it light and slightly falling in natural speech.",
       "tone": "mid level — voice stays steady around mid pitch"
+    }
+  },
+  "wui5_will": {
+    "characters": "會",
+    "jyutping": "wui5",
+    "definition": "will / to be going to / expresses future likelihood or intention",
+    "pronunciation": {
+      "sound": "wui",
+      "description": "Start with a soft 'w' glide, then move into a rounded 'ui' like 'way' but tighter and shorter. Keep it smooth and lightly flowing in natural speech.",
+      "tone": "low rising — voice starts low and rises slightly"
     }
   }
 }
