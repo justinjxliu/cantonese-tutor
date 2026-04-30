@@ -31,8 +31,8 @@
         },
         {
           "phrase": "Are they {english}",
-          "characters": "佢哋{cantonese}咩",
-          "jyutping": "keoi5 dei6 {jyutping} me1"
+          "characters": "佢哋{cantonese}呀",
+          "jyutping": "keoi5 dei6 {jyutping} aa3"
         }
       ]
     },
@@ -302,7 +302,7 @@
     },
     "feeling": {
       "phrase": "I feel {english}",
-      "characters": "我覺得好{cantonese}",
+      "characters": "我覺得{cantonese}",
       "jyutping": "ngo5 gok3 dak1 {jyutping}",
       "vocabulary": ["ngo5_I", "gok3_dak1_feel"],
       "pronunciation": ["ngo5_I", "gok3_feel_component", "dak1_feel_component"],

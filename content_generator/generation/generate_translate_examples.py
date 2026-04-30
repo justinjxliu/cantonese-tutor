@@ -14,7 +14,10 @@ def expand_vocabulary(lesson_primitive, vocab_primitives):
 
 def expand_pronunciation(lesson_primitive, vocab_primitives):
     return [
-        vocab_primitives[component]["pronunciation"]
+        {
+            "character": vocab_primitives[component]["characters"],
+            **vocab_primitives[component]["pronunciation"]
+        }
         for component in lesson_primitive["pronunciation"]
     ]
 
@@ -133,11 +136,9 @@ for task in translate_primitives.keys():
                     else:
                         response[option] = expanded_lesson[option]
                 
-                prompt = json.dumps(request, ensure_ascii=False)
-                completion = json.dumps(response, ensure_ascii=False)
                 translate_examples.append({
-                    "prompt": prompt,
-                    "completion": completion
+                    "prompt": request,
+                    "completion": response
                 })
 
 # Save examples

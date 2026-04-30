@@ -242,6 +242,7 @@
     "pronunciation": null
   },
   "gaa3_coffee_component": {
+    "characters": "咖",
     "pronunciation": {
       "sound": "gaa",
       "description": "Start with a soft 'g' sound, then open into 'aa' like in 'car', keeping the vowel long and relaxed.",
@@ -249,6 +250,7 @@
     }
   },
   "fe1_coffee_component": {
+    "characters": "啡",
     "pronunciation": {
       "sound": "fay",
       "description": "Start with a clear 'f' sound, then glide into 'ay' like in 'say', keeping the vowel light and slightly high.",
@@ -518,6 +520,7 @@
     "pronunciation": null
   },
   "gok3_feel_component": {
+    "characters": "覺",
     "pronunciation": {
       "sound": "gok",
       "description": "Start with a hard 'g' sound, followed by a short 'ok' vowel like in 'sock'. Keep it clipped and low.",
@@ -525,6 +528,7 @@
     }
   },
   "dak1_feel_component": {
+    "characters": "得",
     "pronunciation": {
       "sound": "duck",
       "description": "Start with a soft 'd' sound, followed by a short, closed 'uh' vowel like in 'duck'. Keep it light and neutral.",
