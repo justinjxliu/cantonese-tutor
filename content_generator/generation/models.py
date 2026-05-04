@@ -1,4 +1,4 @@
-from pydantic import BaseModel, model_validator
+from pydantic import BaseModel, model_validator, Field
 from typing import Self
 
 class Prompt(BaseModel):
@@ -111,3 +111,11 @@ class Example(BaseModel):
     
     def _check_templates_resolved(self) -> None:
         check_no_braces(self.model_dump())
+
+class Response(BaseModel):
+    translation_correct: bool
+    vocabulary_correct: bool
+    pronunciation_correct: bool
+    practice_quality: int = Field(gt=1, lt=5)
+    naturalness: int = Field(gt=1, lt=5)
+    issues: list[str]
