@@ -116,6 +116,6 @@ class Response(BaseModel):
     translation_correct: bool
     vocabulary_correct: bool
     pronunciation_correct: bool
-    practice_quality: int = Field(gt=1, lt=5)
-    naturalness: int = Field(gt=1, lt=5)
+    practice_quality: int = Field(ge=1, le=5)
+    naturalness: int = Field(ge=1, le=5)
     issues: list[str]

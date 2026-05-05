@@ -42,8 +42,11 @@ prompt: |
      - Segments must fully cover the characters string with no gaps or overlaps.
 
   3. pronunciation_correct (boolean)
-     - Each character in `characters` must have exactly one corresponding pronunciation entry.
-     - Order must match exactly.
+   - Each character must have exactly one pronunciation entry in the same order.
+   - The pronunciation must be a plausible *spoken approximation intended for English readers*.
+   - Do NOT evaluate against Jyutping, Yale, or any formal romanization system.
+   - Accept variation in phonetic rendering as long as it is internally consistent and usable for learning.
+   - Focus on: "Could a learner reasonably pronounce this from the description?"
 
   4. grammar_useful (boolean)
      - Is the grammar explanation accurate, relevant, and helpful for learning?

@@ -4,6 +4,7 @@ import yaml
 from google import genai
 from dotenv import load_dotenv
 import os
+import time
 from tenacity import (
     retry,
     stop_after_attempt,
@@ -11,16 +12,21 @@ from tenacity import (
 ) # For exponential backoff
 from models import Response
 
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+@retry(wait=wait_random_exponential(min=12, max=60), stop=stop_after_attempt(5))
 def completion_with_backoff(contents):
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=contents,
-        config={
-            "response_mime_type": "application/json",
-            "response_json_schema": Response.model_json_schema()
-        }
-    )
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=contents,
+            config={
+                "response_mime_type": "application/json",
+                "response_json_schema": Response.model_json_schema()
+            }
+        )
+    except Exception as e:
+        print("TYPE:", type(e))
+        print("REPR:", repr(e))
+        raise
 
     if response.text is None:
         raise ValueError("Empty response")
@@ -29,7 +35,9 @@ def completion_with_backoff(contents):
     try:
         return Response.model_validate_json(response.text).model_dump()
     except Exception as e:
-        raise ValueError(f"Invalid JSON: {e}\nRAW RESPONSE:\n{response.text}")
+        print("TYPE:", type(e))
+        print("REPR:", repr(e))
+        raise ValueError(f"Invalid JSON: {e}\nRaw response:\n{response.text}")
 
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
@@ -59,6 +67,9 @@ EXAMPLE TO EVALUATE
 
 with open(translate_examples_path, 'r') as translate_examples_file, open(results_path, 'w') as results_file:
     for i, line in enumerate(translate_examples_file, start=1):
+        if i == 141:
+            break
+        
         # Only evaluate full combinations
         if i % 10 != 0:
             continue
@@ -76,7 +87,10 @@ with open(translate_examples_path, 'r') as translate_examples_file, open(results
                 "example": translate_example,
                 "error": str(e)
             }
+        finally:
+            time.sleep(12)
         
         # Save results
         results_file.write(json.dumps(result, ensure_ascii=False) + '\n')
+        results_file.flush()
         print(f"Processed line {i}")
